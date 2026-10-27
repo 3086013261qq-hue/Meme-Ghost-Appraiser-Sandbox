@@ -1,0 +1,47 @@
+{
+  "schema": "meme-ghost-appraiser.appraiser-roster.v0.1",
+  "status": "appraiser_roster_and_ability_batch01_audit_passed",
+  "baseline": "8c0301c8b89c790038a412ee2d830991f74fd9ae",
+  "audit": "qa/人物层_鉴赏官十人编制与能力条目审计_v0.1.md",
+  "format": {
+    "character_tag": "<角色名character>",
+    "ability_tag": "<核心设定:角色名·能力>",
+    "storage": "character_and_ability_sibling_blocks_in_same_file",
+    "activation": "green_keyword_triggered"
+  },
+  "policy": {
+    "fixed_appraisers": 10,
+    "player_slot": "{{user}} is a separate dynamic trainee appraiser and is not counted among the 10 fixed NPC appraisers",
+    "all_fixed_appraisers_gender": "female",
+    "human_appraisers": 8,
+    "true_haunting_appraisers": 2,
+    "human_physical_ceiling": "elite_athlete_realistic_human",
+    "human_magic": false,
+    "ordinary_meme_ghost_heavy_artifact_default": false,
+    "cooperative_true_haunting_suppression_obligation": false
+  },
+  "entries": [
+    {"id":"APP01","name":"姜岚","rank":"首席鉴赏官","nature":"human","lineage":"民间法脉·家传镇门与守界经验","artifact":"伪装成旧门板的青铜大盾","path":"worldbook/characters/main/APP01_姜岚.md","keywords":["姜岚","姜首席","门板姐"]},
+    {"id":"APP02","name":"白月绫","rank":"资深鉴赏官","nature":"true_haunting_jade_rabbit","lineage":null,"artifact":null,"path":"worldbook/characters/main/APP02_白月绫.md","keywords":["白月绫","玉兔前辈","玉兔鉴赏官"]},
+    {"id":"APP03","name":"沈知微","rank":"资深鉴赏官","nature":"human","lineage":"龙虎山系·符箓科仪与镇界","artifact":"伪装成卫生卷纸的符箓大全","path":"worldbook/characters/main/APP03_沈知微.md","keywords":["沈知微","知微前辈","卫生纸符箓"]},
+    {"id":"APP04","name":"陶夭夭","rank":"正式鉴赏官","nature":"true_haunting_taotie","lineage":null,"artifact":null,"path":"worldbook/characters/main/APP04_陶夭夭.md","keywords":["陶夭夭","饕餮鉴赏官","饕餮前辈"]},
+    {"id":"APP05","name":"周星澜","rank":"正式鉴赏官","nature":"human","lineage":"全真系·持守与剑器经验","artifact":"伪装成打Call荧光棒的双青铜剑","path":"worldbook/characters/main/APP05_周星澜.md","keywords":["周星澜","星澜","荧光棒双剑"]},
+    {"id":"APP06","name":"乔眠","rank":"正式鉴赏官","nature":"human","lineage":"崂山系·术数应变与现场变通","artifact":"伪装成皮卡丘图案雨伞的红油纸伞","path":"worldbook/characters/main/APP06_乔眠.md","keywords":["乔眠","瞌睡前辈","红油纸伞"]},
+    {"id":"APP07","name":"闻墨","rank":"正式鉴赏官","nature":"human","lineage":"少林与佛门法脉·钵器镇摄与护持经验","artifact":"伪装成烟灰缸的紫金钵","path":"worldbook/characters/main/APP07_闻墨.md","keywords":["闻墨","闻墨前辈","紫金钵烟灰缸"]},
+    {"id":"APP08","name":"程穗","rank":"正式鉴赏官","nature":"human","lineage":"少林与佛门法脉·金刚护持与定点经验","artifact":"伪装成马桶搋子的金刚杵","path":"worldbook/characters/main/APP08_程穗.md","keywords":["程穗","女仆鉴赏官","马桶搋子金刚杵"]},
+    {"id":"APP09","name":"许枝枝","rank":"见习鉴赏官","nature":"human","lineage":"民间法脉·家传盘龙棍与地方异常经验","artifact":"伪装成衣架的盘龙棍","path":"worldbook/characters/main/APP09_许枝枝.md","keywords":["许枝枝","枝枝","呆毛见习"]},
+    {"id":"APP10","name":"夏酌","rank":"见习鉴赏官","nature":"human","lineage":"茅山系·封缄禁忌与定点经验","artifact":"伪装成装饰的连弩","path":"worldbook/characters/main/APP10_夏酌.md","keywords":["夏酌","酒蒙子见习","封缄连弩"]}
+  ],
+  "counts": {
+    "chief": 1,
+    "senior": 2,
+    "full": 5,
+    "trainee_fixed_npcs": 2,
+    "fixed_total": 10,
+    "human": 8,
+    "true_haunting": 2,
+    "character_blocks": 10,
+    "ability_blocks": 10
+  },
+  "next_stage": "continue_character_relationship_refinement_or_begin_region_true_haunting_design"
+}
