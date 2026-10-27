@@ -1,5 +1,5 @@
 {
-  "schema": "meme-ghost-appraiser.worldbook-lights.v0.1",
+  "schema": "meme-ghost-appraiser.worldbook-lights.v0.2",
   "policy": {
     "blue": "always_on",
     "green": "keyword_triggered",
@@ -8,7 +8,9 @@
       "蓝灯仅保留每轮不可遗忘的世界底层事实。",
       "绿灯仅在相关语义/关键词命中时展开，避免同时激活造成上下文膨胀。",
       "绿灯不得覆盖、改写或否定蓝灯硬规则。",
-      "固定地点真祟不得被随机梗小鬼或AI临场生成怪谈替换。"
+      "每个正式核心地点固定一个真祟/真怪谈隐藏主线，不得被随机梗小鬼或AI临场生成怪谈替换。",
+      "真祟分类属于鉴赏局工作标签，不得被写成绝对物种学真理。",
+      "城市级终极谜团不得由普通NPC、随机怪谈或开局说明提前揭晓。"
     ]
   },
   "entries": [
@@ -21,27 +23,19 @@
       "keywords": []
     },
     {
-      "path": "worldbook/settings/01_GREEN_梗小鬼与模因异常.md",
+      "path": "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
       "light": "green",
       "enabled": true,
       "constant": false,
-      "priority": 520,
-      "keywords": ["梗小鬼", "模因", "热梗", "点赞", "短视频", "收容", "表情包", "网络怪谈", "都市传闻"]
-    },
-    {
-      "path": "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
-      "light": "green",
-      "enabled": true,
-      "constant": false,
-      "priority": 510,
-      "keywords": ["鉴赏局", "鉴赏官", "见习", "新人", "任务", "外勤", "总部", "收容室", "官方组织"]
+      "priority": 580,
+      "keywords": ["灵异", "异常", "具象化", "映现", "认知", "传播", "城市", "普通人", "警方", "医院", "监控", "证据", "网络"]
     },
     {
       "path": "worldbook/settings/03_GREEN_真祟与恐怖规则.md",
       "light": "green",
       "enabled": true,
       "constant": false,
-      "priority": 560,
+      "priority": 570,
       "keywords": ["真祟", "恶鬼", "鬼", "怪", "妖", "邪", "煞", "封印", "失联", "死亡", "禁地", "恐怖", "调查"]
     },
     {
@@ -49,16 +43,32 @@
       "light": "green",
       "enabled": true,
       "constant": false,
+      "priority": 550,
+      "keywords": ["法脉", "龙虎山", "全真", "崂山", "少林", "茅山", "符箓", "雷法", "阵法", "科仪", "佛法", "法器", "驱邪"]
+    },
+    {
+      "path": "worldbook/settings/01_GREEN_梗小鬼与模因异常.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
       "priority": 540,
-      "keywords": ["法脉", "龙虎山", "全真", "崂山", "少林", "符箓", "雷法", "阵法", "科仪", "佛法", "法器", "驱邪"]
+      "keywords": ["梗小鬼", "模因", "热梗", "点赞", "短视频", "收容", "表情包", "网络怪谈", "都市传闻", "映现"]
+    },
+    {
+      "path": "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 530,
+      "keywords": ["鉴赏局", "鉴赏官", "见习", "新人", "任务", "外勤", "总部", "收容室", "官方组织", "联络员"]
     },
     {
       "path": "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md",
       "light": "green",
       "enabled": true,
       "constant": false,
-      "priority": 500,
-      "keywords": ["城市", "怪谈", "传闻", "地点", "隐藏主线", "遗痕", "旧档案", "网络传播", "真相"]
+      "priority": 520,
+      "keywords": ["城市", "怪谈", "传闻", "地点", "隐藏主线", "遗痕", "旧档案", "网络传播", "真相", "调查"]
     }
   ]
 }
