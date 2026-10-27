@@ -16,7 +16,8 @@
       "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。",
       "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。",
       "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。",
-      "BLUE07 的人为投放、商业与灰产、偏移失控及监管责任已经拆分；造梗不是精准召唤，正常创作与营销也不因映现风险而自动违法。"
+      "BLUE07 的人为投放、商业与灰产、偏移失控及监管责任已经拆分；造梗不是精准召唤，正常创作与营销也不因映现风险而自动违法。",
+      "BLUE08 的法脉共通原则、龙虎山系、全真系、崂山系、茅山系、少林与佛门、民间法脉及法器仪轨代价已经拆分；所有现实宗教与民俗名称仅作为本作架空延展，不宣称现实世界存在对应超自然能力。"
     ]
   },
   "blue_entries": [
@@ -60,7 +61,15 @@
     {"id":"GREEN26","parent_blue":"BLUE07","path":"worldbook/settings/GREEN26_人为造梗与投放机制.md","enabled":true,"constant":false,"priority":495,"keywords":["造梗","推梗","投放","起梗","人为造梗","营销造梗","模因投放","设计热梗"]},
     {"id":"GREEN27","parent_blue":"BLUE07","path":"worldbook/settings/GREEN27_商业利用与造梗灰产.md","enabled":true,"constant":false,"priority":490,"keywords":["商业造梗","灰产","营销团队","流量生意","模因营销","付费投放","异常营销","梗小鬼商业化"]},
     {"id":"GREEN28","parent_blue":"BLUE07","path":"worldbook/settings/GREEN28_造梗偏移与失控.md","enabled":true,"constant":false,"priority":485,"keywords":["造梗失控","梗失控","偏移","玩坏","反噬","脱离控制","舆论反转","梗核偏移","人设崩坏"]},
-    {"id":"GREEN29","parent_blue":"BLUE07","path":"worldbook/settings/GREEN29_造梗监管与责任边界.md","enabled":true,"constant":false,"priority":480,"keywords":["造梗监管","造梗责任","异常营销责任","故意扩散","风险告知","隐瞒异常","责任追究","停止投放","异常项目"]}
+    {"id":"GREEN29","parent_blue":"BLUE07","path":"worldbook/settings/GREEN29_造梗监管与责任边界.md","enabled":true,"constant":false,"priority":480,"keywords":["造梗监管","造梗责任","异常营销责任","故意扩散","风险告知","隐瞒异常","责任追究","停止投放","异常项目"]},
+    {"id":"GREEN30","parent_blue":"BLUE08","path":"worldbook/settings/GREEN30_法脉共通原则与传承.md","enabled":true,"constant":false,"priority":475,"keywords":["法脉","法脉体系","师承法脉","法门传承","传人","修持"]},
+    {"id":"GREEN31","parent_blue":"BLUE08","path":"worldbook/settings/GREEN31_龙虎山系_符箓科仪与镇界.md","enabled":true,"constant":false,"priority":470,"keywords":["龙虎山","符箓","法印","步罡","科仪","镇邪","雷法","镇界"]},
+    {"id":"GREEN32","parent_blue":"BLUE08","path":"worldbook/settings/GREEN32_全真系_内炼持守与心神稳定.md","enabled":true,"constant":false,"priority":465,"keywords":["全真","内炼","持守","静功","心神稳定","定心"]},
+    {"id":"GREEN33","parent_blue":"BLUE08","path":"worldbook/settings/GREEN33_崂山系_术数应变与现场变通.md","enabled":true,"constant":false,"priority":460,"keywords":["崂山","术数","奇门","遁法","障眼","现场变通"]},
+    {"id":"GREEN34","parent_blue":"BLUE08","path":"worldbook/settings/GREEN34_茅山系_封缄禁忌与尸祟经验.md","enabled":true,"constant":false,"priority":455,"keywords":["茅山","封缄","尸祟","镇尸","棺","阴宅","墓葬禁忌"]},
+    {"id":"GREEN35","parent_blue":"BLUE08","path":"worldbook/settings/GREEN35_少林与佛门法脉_守定护人与镇魔.md","enabled":true,"constant":false,"priority":450,"keywords":["少林","佛门","禅定","经咒","戒持","金刚","镇魔","护人"]},
+    {"id":"GREEN36","parent_blue":"BLUE08","path":"worldbook/settings/GREEN36_民间法脉_傩法祝由与家传经验.md","enabled":true,"constant":false,"priority":445,"keywords":["民间法脉","傩法","祝由","家传法门","地方传承","乡土法门"]},
+    {"id":"GREEN37","parent_blue":"BLUE08","path":"worldbook/settings/GREEN37_法器仪轨与施行代价.md","enabled":true,"constant":false,"priority":440,"keywords":["法器","仪轨","科仪代价","施术反噬","法器损坏","仪式条件","施术失败"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -71,7 +80,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE08｜法脉",
     "BLUE09｜模因",
     "BLUE10｜大恐怖"
   ]
