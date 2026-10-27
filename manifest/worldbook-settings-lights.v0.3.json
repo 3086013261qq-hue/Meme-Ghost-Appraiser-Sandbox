@@ -1,0 +1,56 @@
+{
+  "schema": "meme-ghost-appraiser.worldbook-lights.v0.3",
+  "status": "blue_rebuild_in_progress",
+  "policy": {
+    "blue": "always_on",
+    "green": "keyword_triggered",
+    "precedence": "blue_over_green",
+    "notes": [
+      "蓝灯正在逐条精修重建；只有本清单明确登记的蓝灯才属于现行常驻设定。",
+      "旧文件 worldbook/settings/00_BLUE_世界核心常驻规则.md 已停止作为现行蓝灯使用，不得装配进角色卡。",
+      "蓝灯只保存每轮不可遗忘的世界事实；机制展开、案例、分类、法律与流程下沉到绿灯。",
+      "绿灯不得覆盖、改写或否定蓝灯硬规则。"
+    ]
+  },
+  "blue_entries": [
+    {
+      "id": "BLUE01",
+      "path": "worldbook/settings/BLUE01_总世界观.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 1000,
+      "keywords": []
+    },
+    {
+      "id": "BLUE06",
+      "path": "worldbook/settings/BLUE06_灵异直播.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 950,
+      "keywords": []
+    },
+    {
+      "id": "BLUE07",
+      "path": "worldbook/settings/BLUE07_造梗.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 945,
+      "keywords": []
+    }
+  ],
+  "planned_blue_entries": [
+    "BLUE02｜梗小鬼",
+    "BLUE03｜真祟",
+    "BLUE04｜梗小鬼无法被消灭",
+    "BLUE05｜梗小鬼鉴赏官",
+    "BLUE08｜真祟恐怖尺度"
+  ],
+  "green_entries": [
+    "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
+    "worldbook/settings/03_GREEN_真祟与恐怖规则.md",
+    "worldbook/settings/04_GREEN_法脉与处置体系.md",
+    "worldbook/settings/01_GREEN_梗小鬼与模因异常.md",
+    "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
+    "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
+  ]
+}
