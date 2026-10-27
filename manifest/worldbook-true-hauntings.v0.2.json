@@ -1,0 +1,57 @@
+{
+  "schema": "meme-ghost-appraiser.true-hauntings.v0.2",
+  "status": "external_city_true_haunting_batch02_audit_ready",
+  "baseline": "f1ea4ad3d6cf332650c20b5fcee4aa26e7181af1",
+  "previous_manifest": "manifest/worldbook-true-hauntings.v0.1.json",
+  "audit": "qa/真祟层_六座外市一城一真祟审计_v0.2.md",
+  "format": {
+    "character_tag": "<真祟名character>",
+    "ability_tag": "<核心设定:真祟名·能力>",
+    "storage": "character_and_ability_sibling_blocks_in_same_file",
+    "activation": "green_keyword_triggered"
+  },
+  "policy": {
+    "myth_names_are_human_working_names_not_cosmic_true_names": true,
+    "true_haunting_is_entity_first_rule_anomaly_second": true,
+    "rule_anomalies_are_presence_field_not_skill_list": true,
+    "human_magic": false,
+    "lineage_is_survival_experience_not_power_system": true,
+    "artifacts_are_conditional_tools_not_counters": true,
+    "boss_fight_model": false,
+    "one_representative_true_haunting_per_external_city": true,
+    "external_city_true_haunting_does_not_expand_second_open_world_map": true,
+    "external_city_entries_remain_city_level_background": true
+  },
+  "counts": {
+    "qijiang_main_regions": 6,
+    "qijiang_main_region_true_hauntings": 6,
+    "qijiang_municipal_subregion_local_true_hauntings": 1,
+    "external_cities": 6,
+    "external_city_true_hauntings": 6,
+    "total_fixed_true_hauntings": 13
+  },
+  "classification_coverage": ["鬼", "怪", "妖", "邪", "煞"],
+  "entries": [
+    {"id":"TH01","name":"聻·无籍者","scope":"qijiang","region":"REGION01","classification":["鬼"],"myth_motif":"鬼死为聻","path":"worldbook/true-hauntings/TH01_聻·无籍者.md","core_horror":"先把人带走，再让现实完成第二次死亡"},
+    {"id":"TH02","name":"罔两·第二影","scope":"qijiang","region":"REGION02","classification":["怪"],"myth_motif":"罔两与影之影","path":"worldbook/true-hauntings/TH02_罔两·第二影.md","core_horror":"第二份影像逐步抢占本人的现实位置"},
+    {"id":"TH03","name":"魇·第零届","scope":"qijiang","region":"REGION03","classification":["邪"],"myth_motif":"魇魅与厌胜","path":"worldbook/true-hauntings/TH03_魇·第零届.md","core_horror":"不存在的人生逐渐取代真实人生"},
+    {"id":"TH04","name":"白虎煞·乙班","scope":"qijiang","region":"REGION04","classification":["煞"],"myth_motif":"西方白虎、金与肃杀","path":"worldbook/true-hauntings/TH04_白虎煞·乙班.md","core_horror":"已结束的流程继续找人补满缺口"},
+    {"id":"TH05","name":"无支祁·缚水者","scope":"qijiang","region":"REGION05","classification":["妖"],"myth_motif":"无支祁、水猿、洪水与锁链","path":"worldbook/true-hauntings/TH05_无支祁·缚水者.md","core_horror":"现代水库下存在远早于城市的巨大水域实体"},
+    {"id":"TH06","name":"蜃·两岸之间","scope":"qijiang","region":"REGION06","classification":["怪","妖"],"classification_status":"disputed","myth_motif":"蜃气楼、蜃龙与巨蜃","path":"worldbook/true-hauntings/TH06_蜃·两岸之间.md","core_horror":"真正过江，却抵达了不是原来那座城市的另一岸"},
+    {"id":"TH07","name":"息壤·白界","scope":"qijiang","region":"SUBREGION01","region_role":"municipal_rural_subregion_local_true_haunting_not_seventh_main_region","classification":["怪","煞"],"classification_status":"disputed","myth_motif":"息壤与乡野远观白物怪谈结构","path":"worldbook/true-hauntings/TH07_息壤·白界.md","core_horror":"旧土地与旧关系重新登记活人，白色实体沿田界来把人带走"},
+    {"id":"TH08","name":"太岁·城下肉","scope":"external_city","external_city":"EXT01","city_name":"京华市","classification":["怪","煞"],"classification_status":"disputed","myth_motif":"太岁禁忌与动土意象","path":"worldbook/true-hauntings/TH08_太岁·城下肉.md","core_horror":"千年城市可能一直建在某个古老活物反复被切开的伤口上"},
+    {"id":"TH09","name":"海和尚·玻璃潮","scope":"external_city","external_city":"EXT02","city_name":"海津市","classification":["怪","妖"],"classification_status":"disputed","myth_motif":"沿海海和尚与海上怪人传说","path":"worldbook/true-hauntings/TH09_海和尚·玻璃潮.md","core_horror":"海里的东西能沿城市水系统和高层外墙来到离海极远的地方"},
+    {"id":"TH10","name":"落头氏·百灯夜","scope":"external_city","external_city":"EXT03","city_name":"岭州市","classification":["妖"],"myth_motif":"落头民与飞头獠","path":"worldbook/true-hauntings/TH10_落头氏·百灯夜.md","core_horror":"密集城市让会飞的头颅几乎不需要穿越任何安全距离"},
+    {"id":"TH11","name":"巴蛇·腹山","scope":"external_city","external_city":"EXT04","city_name":"蜀都市","classification":["妖"],"myth_motif":"巴蛇吞象","path":"worldbook/true-hauntings/TH11_巴蛇·腹山.md","core_horror":"地下工程可能不是挖进山，而是挖到某个巨大活物身体旁边"},
+    {"id":"TH12","name":"蜮·影射者","scope":"external_city","external_city":"EXT05","city_name":"临海市","classification":["妖","怪"],"classification_status":"disputed","myth_motif":"蜮、射工与含沙射影","path":"worldbook/true-hauntings/TH12_蜮·影射者.md","core_horror":"古老射影怪物不懂AI，但现代城市替每个人制造了无数可被利用的影"},
+    {"id":"TH13","name":"穷奇·黑风","scope":"external_city","external_city":"EXT06","city_name":"北陵市","classification":["妖","煞"],"classification_status":"disputed","myth_motif":"穷奇恶兽与逆德食人意象","path":"worldbook/true-hauntings/TH13_穷奇·黑风.md","core_horror":"古老捕食者学会在人类回头救同伴时沿救援路线伏击"}
+  ],
+  "external_city_map_policy": {
+    "fixed_internal_sites_created": 0,
+    "fixed_districts_created": 0,
+    "allowed": ["city_level_case_background", "cross_city_archive", "temporary_case_location_when_story_requires", "external_appraiser_contact_when_story_requires"],
+    "forbidden": ["automatic_second_open_world_map", "full_city_site_expansion_without_later_authorization"]
+  },
+  "separate_existing_true_haunting_appraisers": ["APP02_白月绫", "APP04_陶夭夭"],
+  "next_stage": "audit_then_design_cross_city_case_hooks_without_expanding_external_city_maps"
+}
