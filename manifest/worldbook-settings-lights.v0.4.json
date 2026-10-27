@@ -11,7 +11,8 @@
       "v0.3 及更早版本列出的 01_GREEN-06_GREEN 粗绿灯保留为历史草稿，不得与新绿灯同时装配。",
       "绿灯负责机制、社会细节、分类、案例与流程展开，不得覆盖或改写上位蓝灯。",
       "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。",
-      "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；收容闭环与载体继续归 BLUE04 展开，运行时随机池不写入世界观绿灯。"
+      "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；收容闭环与载体继续归 BLUE04 展开，运行时随机池不写入世界观绿灯。",
+      "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。"
     ]
   },
   "blue_entries": [
@@ -27,78 +28,18 @@
     {"id":"BLUE10","path":"worldbook/settings/BLUE10_大恐怖.md","enabled":true,"constant":true,"priority":930,"keywords":[]}
   ],
   "active_green_entries": [
-    {
-      "id": "GREEN01",
-      "parent_blue": "BLUE01",
-      "path": "worldbook/settings/GREEN01_公众常识与日常共存.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 620,
-      "keywords": ["普通人","市民","社会","日常","学校","公司","商场","地铁","社区","公共场所","梗小鬼事件"]
-    },
-    {
-      "id": "GREEN02",
-      "parent_blue": "BLUE01",
-      "path": "worldbook/settings/GREEN02_公共系统与异常协作.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 615,
-      "keywords": ["警方","警察","消防","医院","物业","联络员","公共系统","公共部门","异常转交","应急处置","异常报告","协作"]
-    },
-    {
-      "id": "GREEN03",
-      "parent_blue": "BLUE01",
-      "path": "worldbook/settings/GREEN03_媒体证据与社会噪声.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 610,
-      "keywords": ["媒体","新闻","短视频","监控","录像","录音","证据","热搜","舆论","偷拍视频","网络记录","平台治理"]
-    },
-    {
-      "id": "GREEN04",
-      "parent_blue": "BLUE02",
-      "path": "worldbook/settings/GREEN04_映现与诞生条件.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 605,
-      "keywords": ["映现","诞生","形成","凝形","共同印象","映现条件"]
-    },
-    {
-      "id": "GREEN05",
-      "parent_blue": "BLUE02",
-      "path": "worldbook/settings/GREEN05_梗小鬼生命周期.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 600,
-      "keywords": ["生命周期","萌芽","凝形","现身","定型","沉寂","生命周期阶段"]
-    },
-    {
-      "id": "GREEN06",
-      "parent_blue": "BLUE02",
-      "path": "worldbook/settings/GREEN06_梗核与人格.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 595,
-      "keywords": ["梗核","人格","性格","角色感","个性","记忆","喜好","破防"]
-    },
-    {
-      "id": "GREEN07",
-      "parent_blue": "BLUE02",
-      "path": "worldbook/settings/GREEN07_等效点赞与传播规模.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 590,
-      "keywords": ["点赞","等效点赞","传播规模","热度","百万赞","千万赞","全网","爆火","扩散","评级"]
-    },
-    {
-      "id": "GREEN08",
-      "parent_blue": "BLUE02",
-      "path": "worldbook/settings/GREEN08_同源分支与复现.md",
-      "enabled": true,
-      "constant": false,
-      "priority": 585,
-      "keywords": ["同源","复现","再出现","同源个体","模因分支","复活","记忆继承"]
-    }
+    {"id":"GREEN01","parent_blue":"BLUE01","path":"worldbook/settings/GREEN01_公众常识与日常共存.md","enabled":true,"constant":false,"priority":620,"keywords":["普通人","市民","社会","日常","学校","公司","商场","地铁","社区","公共场所","梗小鬼事件"]},
+    {"id":"GREEN02","parent_blue":"BLUE01","path":"worldbook/settings/GREEN02_公共系统与异常协作.md","enabled":true,"constant":false,"priority":615,"keywords":["警方","警察","消防","医院","物业","联络员","公共系统","公共部门","异常转交","应急处置","异常报告","协作"]},
+    {"id":"GREEN03","parent_blue":"BLUE01","path":"worldbook/settings/GREEN03_媒体证据与社会噪声.md","enabled":true,"constant":false,"priority":610,"keywords":["媒体","新闻","短视频","监控","录像","录音","证据","热搜","舆论","偷拍视频","网络记录","平台治理"]},
+    {"id":"GREEN04","parent_blue":"BLUE02","path":"worldbook/settings/GREEN04_映现与诞生条件.md","enabled":true,"constant":false,"priority":605,"keywords":["映现","诞生","形成","凝形","共同印象","映现条件"]},
+    {"id":"GREEN05","parent_blue":"BLUE02","path":"worldbook/settings/GREEN05_梗小鬼生命周期.md","enabled":true,"constant":false,"priority":600,"keywords":["生命周期","萌芽","凝形","现身","定型","沉寂","生命周期阶段"]},
+    {"id":"GREEN06","parent_blue":"BLUE02","path":"worldbook/settings/GREEN06_梗核与人格.md","enabled":true,"constant":false,"priority":595,"keywords":["梗核","人格","性格","角色感","个性","记忆","喜好","破防"]},
+    {"id":"GREEN07","parent_blue":"BLUE02","path":"worldbook/settings/GREEN07_等效点赞与传播规模.md","enabled":true,"constant":false,"priority":590,"keywords":["点赞","等效点赞","传播规模","热度","百万赞","千万赞","全网","爆火","扩散","评级"]},
+    {"id":"GREEN08","parent_blue":"BLUE02","path":"worldbook/settings/GREEN08_同源分支与复现.md","enabled":true,"constant":false,"priority":585,"keywords":["同源","复现","再出现","同源个体","模因分支","复活","记忆继承"]},
+    {"id":"GREEN09","parent_blue":"BLUE03","path":"worldbook/settings/GREEN09_真祟工作分类.md","enabled":true,"constant":false,"priority":580,"keywords":["鬼","怪","妖","邪","煞","真祟分类","工作分类","归类"]},
+    {"id":"GREEN10","parent_blue":"BLUE03","path":"worldbook/settings/GREEN10_真祟成因与依附.md","enabled":true,"constant":false,"priority":575,"keywords":["成因","来源","依附","寄宿","死亡现场","邪物","凶地","灵异地点"]},
+    {"id":"GREEN11","parent_blue":"BLUE03","path":"worldbook/settings/GREEN11_真祟识别与误判.md","enabled":true,"constant":false,"priority":570,"keywords":["误判","识别","判定","不是梗小鬼","真祟迹象","异常来源","传播源","调查判断"]},
+    {"id":"GREEN12","parent_blue":"BLUE03","path":"worldbook/settings/GREEN12_非敌对真祟与共存边界.md","enabled":true,"constant":false,"priority":565,"keywords":["非敌对","共存","交流","合作","善意","无害","特殊居民","知情人","协作者"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -109,7 +50,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE03｜真祟",
     "BLUE04｜收容法则",
     "BLUE05｜梗小鬼鉴赏官",
     "BLUE06｜灵异直播",
