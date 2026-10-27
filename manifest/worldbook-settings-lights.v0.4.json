@@ -1,6 +1,6 @@
 {
   "schema": "meme-ghost-appraiser.worldbook-lights.v0.4",
-  "status": "green_rebuild_in_progress",
+  "status": "green_rebuild_complete",
   "policy": {
     "blue": "always_on",
     "green": "keyword_triggered",
@@ -18,7 +18,8 @@
       "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。",
       "BLUE07 的人为投放、商业与灰产、偏移失控及监管责任已经拆分；造梗不是精准召唤，正常创作与营销也不因映现风险而自动违法。",
       "BLUE08 的法脉共通原则、龙虎山系、全真系、崂山系、茅山系、少林与佛门、民间法脉及法器仪轨代价已经拆分；所有现实宗教与民俗名称仅作为本作架空延展，不宣称现实世界存在对应超自然能力。",
-      "BLUE09 的模因结构、传播变异、社会记忆与灵异边界已经拆分；模因首先是文化信息结构，绝大多数模因永远不会产生超自然异常。"
+      "BLUE09 的模因结构、传播变异、社会记忆与灵异边界已经拆分；模因首先是文化信息结构，绝大多数模因永远不会产生超自然异常。",
+      "BLUE10 的恐怖维度、规则未知、因果一致性、不可逆余波与恐惧中的行动尺度已经拆分；真祟可以压倒人类，但具体案件必须保持内在一致、可调查、可回溯，恐怖不得靠临时改规则成立。"
     ]
   },
   "blue_entries": [
@@ -74,7 +75,12 @@
     {"id":"GREEN38","parent_blue":"BLUE09","path":"worldbook/settings/GREEN38_模因结构与识别.md","enabled":true,"constant":false,"priority":435,"keywords":["模因结构","识别结构","核心符号","传播单元","文化信息","模因识别","梗是什么","共同识别"]},
     {"id":"GREEN39","parent_blue":"BLUE09","path":"worldbook/settings/GREEN39_模因传播复制与变异.md","enabled":true,"constant":false,"priority":430,"keywords":["模因传播","复制","变异","误传","二创","恶搞","方言版","社群版本","传播路径","模因变体"]},
     {"id":"GREEN40","parent_blue":"BLUE09","path":"worldbook/settings/GREEN40_社会记忆与旧梗复兴.md","enabled":true,"constant":false,"priority":425,"keywords":["旧梗","过气梗","复古","考古","旧梗复兴","重新爆火","社会记忆","集体记忆","遗忘","怀旧"]},
-    {"id":"GREEN41","parent_blue":"BLUE09","path":"worldbook/settings/GREEN41_模因与灵异边界.md","enabled":true,"constant":false,"priority":420,"keywords":["模因边界","灵异边界","相信成真","集体相信","虚构成真","怪谈成真","模因异常","非灵异模因"]}
+    {"id":"GREEN41","parent_blue":"BLUE09","path":"worldbook/settings/GREEN41_模因与灵异边界.md","enabled":true,"constant":false,"priority":420,"keywords":["模因边界","灵异边界","相信成真","集体相信","虚构成真","怪谈成真","模因异常","非灵异模因"]},
+    {"id":"GREEN42","parent_blue":"BLUE10","path":"worldbook/settings/GREEN42_大恐怖维度与现实错位.md","enabled":true,"constant":false,"priority":415,"keywords":["大恐怖","恐怖维度","现实错位","规则恐怖","认知恐怖","空间恐怖","时间恐怖","关系恐怖"]},
+    {"id":"GREEN43","parent_blue":"BLUE10","path":"worldbook/settings/GREEN43_规则未知与经验边界.md","enabled":true,"constant":false,"priority":410,"keywords":["未知规则","禁忌","生路","经验失效","规则失灵","幸存经验","真祟规律","旧经验"]},
+    {"id":"GREEN44","parent_blue":"BLUE10","path":"worldbook/settings/GREEN44_因果一致性与叙事公平.md","enabled":true,"constant":false,"priority":405,"keywords":["叙事公平","因果一致","线索回溯","规则自洽","作者作弊","伏笔","证据链","真相回看"]},
+    {"id":"GREEN45","parent_blue":"BLUE10","path":"worldbook/settings/GREEN45_不可逆后果与余波.md","enabled":true,"constant":false,"priority":400,"keywords":["不可逆","余波","死亡","失踪","创伤","永久封锁","遗物","后遗症","任务余波"]},
+    {"id":"GREEN46","parent_blue":"BLUE10","path":"worldbook/settings/GREEN46_恐惧中的行动与成功尺度.md","enabled":true,"constant":false,"priority":395,"keywords":["成功尺度","任务成功","撤退","封镇","救援","带回情报","恐惧中的行动","牺牲","前辈为什么进去"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -84,7 +90,5 @@
     "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
-  "planned_green_expansion": [
-    "BLUE10｜大恐怖"
-  ]
+  "planned_green_expansion": []
 }
