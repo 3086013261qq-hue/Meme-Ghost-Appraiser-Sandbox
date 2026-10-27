@@ -76,10 +76,18 @@
       "constant": true,
       "priority": 940,
       "keywords": []
+    },
+    {
+      "id": "BLUE09",
+      "path": "worldbook/settings/BLUE09_模因.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 935,
+      "keywords": []
     }
   ],
   "planned_blue_entries": [
-    "BLUE09｜真祟恐怖尺度"
+    "BLUE10｜真祟恐怖尺度"
   ],
   "green_entries": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
