@@ -38,6 +38,14 @@
       "keywords": []
     },
     {
+      "id": "BLUE04",
+      "path": "worldbook/settings/BLUE04_收容法则.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 970,
+      "keywords": []
+    },
+    {
       "id": "BLUE06",
       "path": "worldbook/settings/BLUE06_灵异直播.md",
       "enabled": true,
@@ -55,7 +63,6 @@
     }
   ],
   "planned_blue_entries": [
-    "BLUE04｜梗小鬼无法被消灭",
     "BLUE05｜梗小鬼鉴赏官",
     "BLUE08｜真祟恐怖尺度"
   ],
