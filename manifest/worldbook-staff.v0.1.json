@@ -1,6 +1,6 @@
 {
   "schema": "meme-ghost-appraiser.staff.v0.1",
-  "status": "ordinary_staff_batch01_ready_for_audit",
+  "status": "ordinary_staff_batch01_audit_passed",
   "baseline": "3996bcd79fdfe07d17c36dfc123bc25c44444955",
   "audit": "qa/人物层_异模办六名普通工作人员审计_v0.1.md",
   "format": {
@@ -78,5 +78,5 @@
       "keywords": ["周弦月", "公共系统", "协同", "联络", "证件", "封控"]
     }
   ],
-  "next_stage": "audit_then_decide_whether_to_add_more_recurring_civilian_staff_or_keep_remaining_roles_generated"
+  "next_stage": "decide_whether_to_add_more_recurring_civilian_staff_or_keep_remaining_roles_generated"
 }
