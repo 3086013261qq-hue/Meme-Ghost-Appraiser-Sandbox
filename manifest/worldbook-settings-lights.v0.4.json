@@ -13,7 +13,8 @@
       "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。",
       "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；运行时随机池不写入世界观绿灯。",
       "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。",
-      "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。"
+      "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。",
+      "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。"
     ]
   },
   "blue_entries": [
@@ -44,7 +45,12 @@
     {"id":"GREEN13","parent_blue":"BLUE04","path":"worldbook/settings/GREEN13_梗闭环与收容判定.md","enabled":true,"constant":false,"priority":560,"keywords":["梗闭环","收容判定","收容成功","接梗","反梗","破梗","逻辑闭环"]},
     {"id":"GREEN14","parent_blue":"BLUE04","path":"worldbook/settings/GREEN14_模因载体与收容形态.md","enabled":true,"constant":false,"priority":555,"keywords":["模因载体","收容载体","封存","安置","约束","隔离","寄存","收容形态"]},
     {"id":"GREEN15","parent_blue":"BLUE04","path":"worldbook/settings/GREEN15_收容松动与失效.md","enabled":true,"constant":false,"priority":550,"keywords":["收容失败","收容松动","失效","脱离收容","逃逸","失稳","封存破坏","再处置"]},
-    {"id":"GREEN16","parent_blue":"BLUE04","path":"worldbook/settings/GREEN16_现场处置与暴力边界.md","enabled":true,"constant":false,"priority":545,"keywords":["现场处置","击散","击退","暴力","战斗","救人","拖延","强制处置","紧急处置"]}
+    {"id":"GREEN16","parent_blue":"BLUE04","path":"worldbook/settings/GREEN16_现场处置与暴力边界.md","enabled":true,"constant":false,"priority":545,"keywords":["现场处置","击散","击退","暴力","战斗","救人","拖延","强制处置","紧急处置"]},
+    {"id":"GREEN17","parent_blue":"BLUE05","path":"worldbook/settings/GREEN17_异模办组织架构与权限.md","enabled":true,"constant":false,"priority":540,"keywords":["异模办","鉴赏局","官方机构","组织架构","部门","权限","编制","行政归口","鉴赏局总部"]},
+    {"id":"GREEN18","parent_blue":"BLUE05","path":"worldbook/settings/GREEN18_鉴赏官岗位分工与混编.md","enabled":true,"constant":false,"priority":535,"keywords":["鉴赏官","外勤","岗位","分工","研判","档案","收容管理员","联络","法脉顾问","团队协作","混编"]},
+    {"id":"GREEN19","parent_blue":"BLUE05","path":"worldbook/settings/GREEN19_标准办案链与任务流转.md","enabled":true,"constant":false,"priority":530,"keywords":["办案流程","任务流程","接报","筛查","研判流程","出勤","归档","复盘","任务流转","案件编号"]},
+    {"id":"GREEN20","parent_blue":"BLUE05","path":"worldbook/settings/GREEN20_装备后勤与伪装身份.md","enabled":true,"constant":false,"priority":525,"keywords":["装备","后勤","车辆","证件","伪装身份","燃气检修","网络维护","封存袋","工牌","经费"]},
+    {"id":"GREEN21","parent_blue":"BLUE05","path":"worldbook/settings/GREEN21_见习制度与知识边界.md","enabled":true,"constant":false,"priority":520,"keywords":["见习","新人","入职","培训","任务权限","带教","实习","知识边界","档案权限","新人权限"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -55,7 +61,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE05｜梗小鬼鉴赏官",
     "BLUE06｜灵异直播",
     "BLUE07｜造梗",
     "BLUE08｜法脉",
