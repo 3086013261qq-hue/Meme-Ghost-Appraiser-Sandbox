@@ -68,10 +68,18 @@
       "constant": true,
       "priority": 945,
       "keywords": []
+    },
+    {
+      "id": "BLUE08",
+      "path": "worldbook/settings/BLUE08_法脉.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 940,
+      "keywords": []
     }
   ],
   "planned_blue_entries": [
-    "BLUE08｜真祟恐怖尺度"
+    "BLUE09｜真祟恐怖尺度"
   ],
   "green_entries": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
