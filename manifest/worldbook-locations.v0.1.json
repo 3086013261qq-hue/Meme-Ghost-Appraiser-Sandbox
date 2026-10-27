@@ -1,0 +1,43 @@
+{
+  "schema": "meme-ghost-appraiser.worldbook-locations.v0.1",
+  "status": "region_skeleton_qa_passed",
+  "baseline": "9b7ccea28d20c9ef4eca982288d9a815e1fc6c22",
+  "policy": {
+    "activation": "keyword_triggered",
+    "notes": [
+      "本清单只登记地点层城市总览、六大区域与六座外部城市，不修改已封版 BLUE01-BLUE10 / GREEN01-GREEN46。",
+      "REGION00-REGION06 为栖江市当前区域骨架；sites 目录本轮保持空骨架，后续再生产正式核心地点。",
+      "外部城市 EXT01-EXT06 每城只保留一条城市级条目，不展开第二套区县地图。",
+      "所有区域首先是正常运转的现代城市空间；灵异只能寄生于真实生活结构，禁止写成灵异主题乐园。",
+      "随机梗小鬼只承担日常生态、支线与随机事件，绝不替代正式核心地点未来预设的固定真祟隐藏主线。",
+      "区域条目目前只限定真祟调查土壤和叙事方向，不提前封死具体核心地点的存在根源、规律与真相。",
+      "具体人物、固定前辈、导师、领导、负责人、幸存者与地点NPC全部留给后续人物生产阶段。"
+    ]
+  },
+  "city_overview": {
+    "id": "REGION00",
+    "path": "worldbook/locations/regions/REGION00_栖江市总体概念与区域骨架.md",
+    "enabled": true,
+    "constant": false,
+    "priority": 500,
+    "keywords": ["栖江市", "栖江", "城市地图", "城市区域", "异模办位置"]
+  },
+  "regions": [
+    {"id":"REGION01","path":"worldbook/locations/regions/REGION01_南城老城区.md","enabled":true,"constant":false,"priority":490,"keywords":["南城老城区","南城","老城区","老街","老社区","老医院","旧学校","家属院","老码头"]},
+    {"id":"REGION02","path":"worldbook/locations/regions/REGION02_北岸新城区.md","enabled":true,"constant":false,"priority":485,"keywords":["北岸新城区","北岸新城","北岸","CBD","商业综合体","直播公司","互联网公司","新住宅区"]},
+    {"id":"REGION03","path":"worldbook/locations/regions/REGION03_东部大学城.md","enabled":true,"constant":false,"priority":480,"keywords":["东部大学城","大学城","高校","校园怪谈","宿舍","图书馆","学生街","科研园"]},
+    {"id":"REGION04","path":"worldbook/locations/regions/REGION04_西部老工业带.md","enabled":true,"constant":false,"priority":475,"keywords":["西部老工业带","老工业区","旧厂区","物流园","货运铁路","仓库","工人社区","废厂"]},
+    {"id":"REGION05","path":"worldbook/locations/regions/REGION05_西北山麓水库带.md","enabled":true,"constant":false,"priority":470,"keywords":["西北山麓","水库","山林","森林公园","隧道","旧村","山路","城市边缘"]},
+    {"id":"REGION06","path":"worldbook/locations/regions/REGION06_沿江中央带.md","enabled":true,"constant":false,"priority":465,"keywords":["沿江中央带","栖江两岸","滨江","跨江桥","地铁换乘","码头","滨江公园","城市中轴"]}
+  ],
+  "external_cities": [
+    {"id":"EXT01","path":"worldbook/locations/regions/EXT01_京华市.md","enabled":true,"constant":false,"priority":420,"keywords":["京华市","京华"]},
+    {"id":"EXT02","path":"worldbook/locations/regions/EXT02_海津市.md","enabled":true,"constant":false,"priority":415,"keywords":["海津市","海津"]},
+    {"id":"EXT03","path":"worldbook/locations/regions/EXT03_岭州市.md","enabled":true,"constant":false,"priority":410,"keywords":["岭州市","岭州"]},
+    {"id":"EXT04","path":"worldbook/locations/regions/EXT04_蜀都市.md","enabled":true,"constant":false,"priority":405,"keywords":["蜀都市","蜀都"]},
+    {"id":"EXT05","path":"worldbook/locations/regions/EXT05_临海市.md","enabled":true,"constant":false,"priority":400,"keywords":["临海市","临海"]},
+    {"id":"EXT06","path":"worldbook/locations/regions/EXT06_北陵市.md","enabled":true,"constant":false,"priority":395,"keywords":["北陵市","北陵"]}
+  ],
+  "sites": [],
+  "next_stage": "select_and_design_core_sites_per_region"
+}
