@@ -1,0 +1,59 @@
+{
+  "schema": "meme-ghost-appraiser.worldbook-lights.v0.4",
+  "status": "green_rebuild_in_progress",
+  "policy": {
+    "blue": "always_on",
+    "green": "keyword_triggered",
+    "precedence": "blue_over_green",
+    "notes": [
+      "BLUE01-BLUE10 已完成横向一致性审计，继续作为正式常驻世界骨架。",
+      "绿灯从 v0.4 起按上位蓝灯逐条重建；只有 active_green_entries 中登记的绿灯属于当前现行展开条目。",
+      "v0.3 及更早版本列出的 01_GREEN-06_GREEN 粗绿灯保留为历史草稿，不得与新绿灯同时装配。",
+      "绿灯负责机制、社会细节、分类、案例与流程展开，不得覆盖或改写上位蓝灯。",
+      "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。"
+    ]
+  },
+  "blue_entries": [
+    {"id":"BLUE01","path":"worldbook/settings/BLUE01_总世界观.md","enabled":true,"constant":true,"priority":1000,"keywords":[]},
+    {"id":"BLUE02","path":"worldbook/settings/BLUE02_梗小鬼.md","enabled":true,"constant":true,"priority":990,"keywords":[]},
+    {"id":"BLUE03","path":"worldbook/settings/BLUE03_真祟.md","enabled":true,"constant":true,"priority":980,"keywords":[]},
+    {"id":"BLUE04","path":"worldbook/settings/BLUE04_收容法则.md","enabled":true,"constant":true,"priority":970,"keywords":[]},
+    {"id":"BLUE05","path":"worldbook/settings/BLUE05_梗小鬼鉴赏官.md","enabled":true,"constant":true,"priority":960,"keywords":[]},
+    {"id":"BLUE06","path":"worldbook/settings/BLUE06_灵异直播.md","enabled":true,"constant":true,"priority":950,"keywords":[]},
+    {"id":"BLUE07","path":"worldbook/settings/BLUE07_造梗.md","enabled":true,"constant":true,"priority":945,"keywords":[]},
+    {"id":"BLUE08","path":"worldbook/settings/BLUE08_法脉.md","enabled":true,"constant":true,"priority":940,"keywords":[]},
+    {"id":"BLUE09","path":"worldbook/settings/BLUE09_模因.md","enabled":true,"constant":true,"priority":935,"keywords":[]},
+    {"id":"BLUE10","path":"worldbook/settings/BLUE10_大恐怖.md","enabled":true,"constant":true,"priority":930,"keywords":[]}
+  ],
+  "active_green_entries": [
+    {
+      "id": "GREEN01",
+      "parent_blue": "BLUE01",
+      "path": "worldbook/settings/GREEN01_公众常识与日常共存.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 620,
+      "keywords": ["普通人","市民","社会","日常","学校","公司","商场","地铁","社区","公共场所","梗小鬼事件"]
+    }
+  ],
+  "legacy_green_drafts": [
+    "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
+    "worldbook/settings/03_GREEN_真祟与恐怖规则.md",
+    "worldbook/settings/04_GREEN_法脉与处置体系.md",
+    "worldbook/settings/01_GREEN_梗小鬼与模因异常.md",
+    "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
+    "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
+  ],
+  "planned_green_expansion": [
+    "BLUE01｜总世界观：继续拆分必要的社会展开条目",
+    "BLUE02｜梗小鬼",
+    "BLUE03｜真祟",
+    "BLUE04｜收容法则",
+    "BLUE05｜梗小鬼鉴赏官",
+    "BLUE06｜灵异直播",
+    "BLUE07｜造梗",
+    "BLUE08｜法脉",
+    "BLUE09｜模因",
+    "BLUE10｜大恐怖"
+  ]
+}
