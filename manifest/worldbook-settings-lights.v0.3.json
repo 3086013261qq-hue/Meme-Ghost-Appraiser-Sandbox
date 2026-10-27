@@ -30,6 +30,14 @@
       "keywords": []
     },
     {
+      "id": "BLUE03",
+      "path": "worldbook/settings/BLUE03_真祟.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 980,
+      "keywords": []
+    },
+    {
       "id": "BLUE06",
       "path": "worldbook/settings/BLUE06_灵异直播.md",
       "enabled": true,
@@ -47,7 +55,6 @@
     }
   ],
   "planned_blue_entries": [
-    "BLUE03｜真祟",
     "BLUE04｜梗小鬼无法被消灭",
     "BLUE05｜梗小鬼鉴赏官",
     "BLUE08｜真祟恐怖尺度"
