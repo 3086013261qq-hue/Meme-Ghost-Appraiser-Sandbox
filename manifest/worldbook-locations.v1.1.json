@@ -1,7 +1,8 @@
 {
   "schema": "meme-ghost-appraiser.worldbook-locations.v1.1",
-  "status": "municipal_rural_extension_complete_ready_for_reaudit",
+  "status": "municipal_rural_extension_audit_passed",
   "baseline": "4c370a265706a6caae3b60e17f8b72d4f6810e0e",
+  "audit": "qa/地点层_市域乡镇扩展后完整总审计_v1.1.md",
   "policy": {
     "activation": "mixed_blue_green",
     "site_semantics": "phenomenon_then_true_haunting_character",
@@ -44,42 +45,36 @@
     {"id":"SITE_NC04","region":"REGION01","path":"worldbook/locations/sites/SITE_NC04_柳荫街历史街区.md","enabled":true,"constant":false,"priority":440,"phenomenon":"回门牌","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["柳荫街","柳荫街历史街区","回门牌","旧门牌","隐藏路线"]},
     {"id":"SITE_NC05","region":"REGION01","path":"worldbook/locations/sites/SITE_NC05_南城市政旧档案楼.md","enabled":true,"constant":false,"priority":439,"phenomenon":"第二份原件","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["南城市政旧档案楼","市政旧档案楼","第二份原件","旧档案库","南城档案"]},
     {"id":"SITE_NC06","region":"REGION01","path":"worldbook/locations/sites/SITE_NC06_南城老防洪闸与泵站.md","enabled":true,"constant":false,"priority":438,"phenomenon":"七号闸门","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["南城老防洪闸","老泵站","七号闸门","防洪闸","南城泵站"]},
-
     {"id":"SITE_BA01","region":"REGION02","path":"worldbook/locations/sites/SITE_BA01_北岸万象中心.md","enabled":true,"constant":false,"priority":435,"phenomenon":"不存在的店铺","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["北岸万象中心","万象中心","不存在的店铺","店铺目录","闭店清单"]},
     {"id":"SITE_BA02","region":"REGION02","path":"worldbook/locations/sites/SITE_BA02_星潮传媒直播园.md","enabled":true,"constant":false,"priority":430,"phenomenon":"预播间","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["星潮传媒直播园","星潮传媒","预播间","直播回放","直播园"]},
     {"id":"SITE_BA03","region":"REGION02","path":"worldbook/locations/sites/SITE_BA03_云栖国际中心.md","enabled":true,"constant":false,"priority":425,"phenomenon":"73层会议","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["云栖国际中心","云栖中心","73层会议","七十三层","CBD"]},
     {"id":"SITE_BA04","region":"REGION02","path":"worldbook/locations/sites/SITE_BA04_澜庭新苑.md","enabled":true,"constant":false,"priority":420,"phenomenon":"已入住的空房","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["澜庭新苑","澜庭社区","已入住的空房","空置房","智能门锁"]},
     {"id":"SITE_BA05","region":"REGION02","path":"worldbook/locations/sites/SITE_BA05_栖江国际会展电竞中心.md","enabled":true,"constant":false,"priority":415,"phenomenon":"零区观众席","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江国际会展电竞中心","会展中心","电竞中心","零区观众席","0区"]},
     {"id":"SITE_BA06","region":"REGION02","path":"worldbook/locations/sites/SITE_BA06_霓虹里夜生活街区.md","enabled":true,"constant":false,"priority":410,"phenomenon":"凌晨四点的订单","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["霓虹里","霓虹里夜生活街区","凌晨四点的订单","最后一单","代驾"]},
-
     {"id":"SITE_UC01","region":"REGION03","path":"worldbook/locations/sites/SITE_UC01_栖江大学城联合图书馆.md","enabled":true,"constant":false,"priority":405,"phenomenon":"借阅者零号","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江大学城联合图书馆","联合图书馆","借阅者零号","零号读者","跨校借阅"]},
     {"id":"SITE_UC02","region":"REGION03","path":"worldbook/locations/sites/SITE_UC02_松岚学生公寓七号楼.md","enabled":true,"constant":false,"priority":400,"phenomenon":"凌晨换寝","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["松岚学生公寓","七号楼","凌晨换寝","换寝通知","宿舍名单"]},
     {"id":"SITE_UC03","region":"REGION03","path":"worldbook/locations/sites/SITE_UC03_栖东综合实验实训中心.md","enabled":true,"constant":false,"priority":395,"phenomenon":"重复实验组","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖东综合实验实训中心","实验实训中心","重复实验组","实验记录","实训楼"]},
     {"id":"SITE_UC04","region":"REGION03","path":"worldbook/locations/sites/SITE_UC04_学府路学生街.md","enabled":true,"constant":false,"priority":390,"phenomenon":"毕业季失物招领","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["学府路学生街","学府路","毕业季失物招领","失物招领处","学生街"]},
     {"id":"SITE_UC05","region":"REGION03","path":"worldbook/locations/sites/SITE_UC05_大学城校史联合档案馆.md","enabled":true,"constant":false,"priority":385,"phenomenon":"被撤销的院系","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["大学城校史联合档案馆","校史档案馆","被撤销的院系","撤销院系","旧校史"]},
     {"id":"SITE_UC06","region":"REGION03","path":"worldbook/locations/sites/SITE_UC06_栖东青年科研园.md","enabled":true,"constant":false,"priority":380,"phenomenon":"第零作者","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖东青年科研园","青年科研园","第零作者","项目署名","科研园"]},
-
     {"id":"SITE_WI01","region":"REGION04","path":"worldbook/locations/sites/SITE_WI01_长风重机厂.md","enabled":true,"constant":false,"priority":375,"phenomenon":"未结束的乙班","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["长风重机厂","长风重机","未结束的乙班","三号装配线","老厂区"]},
     {"id":"SITE_WI02","region":"REGION04","path":"worldbook/locations/sites/SITE_WI02_栖江西货运编组站.md","enabled":true,"constant":false,"priority":370,"phenomenon":"未到站的车皮","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江西货运编组站","西货运站","未到站的车皮","编组站","第七码道"]},
     {"id":"SITE_WI03","region":"REGION04","path":"worldbook/locations/sites/SITE_WI03_恒远仓储物流园.md","enabled":true,"constant":false,"priority":365,"phenomenon":"先入库的货物","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["恒远仓储物流园","恒远物流","先入库的货物","冷链仓","十二号库"]},
     {"id":"SITE_WI04","region":"REGION04","path":"worldbook/locations/sites/SITE_WI04_铸光1919产业园.md","enabled":true,"constant":false,"priority":360,"phenomenon":"旧工位打卡","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["铸光1919产业园","铸光1919","旧工位打卡","老铸造厂","产业园"]},
     {"id":"SITE_WI05","region":"REGION04","path":"worldbook/locations/sites/SITE_WI05_曙光工人新村.md","enabled":true,"constant":false,"priority":355,"phenomenon":"末班通勤车","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["曙光工人新村","曙光新村","末班通勤车","老厂通勤","工人住宅"]},
     {"id":"SITE_WI06","region":"REGION04","path":"worldbook/locations/sites/SITE_WI06_西部市政检修基地与地下管廊.md","enabled":true,"constant":false,"priority":350,"phenomenon":"已完成的检修单","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["西部市政检修基地","地下管廊","已完成的检修单","管廊检修","旧管线"]},
-
     {"id":"SITE_NW01","region":"REGION05","path":"worldbook/locations/sites/SITE_NW01_云盘水库及管理区.md","enabled":true,"constant":false,"priority":345,"phenomenon":"低水位旧岸线","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["云盘水库","云盘水库管理区","低水位旧岸线","旧岸线","淹没区"]},
     {"id":"SITE_NW02","region":"REGION05","path":"worldbook/locations/sites/SITE_NW02_松鹤山森林公园.md","enabled":true,"constant":false,"priority":340,"phenomenon":"无风林带","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["松鹤山森林公园","松鹤山","无风林带","巡护道","山间步道"]},
     {"id":"SITE_NW03","region":"REGION05","path":"worldbook/locations/sites/SITE_NW03_青岚隧道.md","enabled":true,"constant":false,"priority":335,"phenomenon":"第十三盏检修灯","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["青岚隧道","旧洞","第十三盏检修灯","检修灯","山体隧道"]},
     {"id":"SITE_NW04","region":"REGION05","path":"worldbook/locations/sites/SITE_NW04_石门坳迁建村.md","enabled":true,"constant":false,"priority":330,"phenomenon":"第四十七户","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["石门坳迁建村","石门坳","第四十七户","迁建册","旧村址"]},
     {"id":"SITE_NW05","region":"REGION05","path":"worldbook/locations/sites/SITE_NW05_栖云康复疗养中心.md","enabled":true,"constant":false,"priority":325,"phenomenon":"午后广播","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖云康复疗养中心","栖云疗养中心","午后广播","旧疗养楼","山麓疗养院"]},
     {"id":"SITE_NW06","region":"REGION05","path":"worldbook/locations/sites/SITE_NW06_北麓气象水文联合站.md","enabled":true,"constant":false,"priority":320,"phenomenon":"逆流雨量","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["北麓气象水文联合站","北麓观测站","逆流雨量","雨量站","水文站"]},
-
     {"id":"SITE_RC01","region":"REGION06","path":"worldbook/locations/sites/SITE_RC01_栖江中心站.md","enabled":true,"constant":false,"priority":315,"phenomenon":"不存在的换乘层","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江中心站","中心站","不存在的换乘层","B4换乘层","地铁换乘"]},
     {"id":"SITE_RC02","region":"REGION06","path":"worldbook/locations/sites/SITE_RC02_地铁2号线穿江区间与江底疏散通道.md","enabled":true,"constant":false,"priority":310,"phenomenon":"江底广播","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["地铁2号线","穿江区间","江底广播","江底隧道","旧江岸"]},
     {"id":"SITE_RC03","region":"REGION06","path":"worldbook/locations/sites/SITE_RC03_栖江双桥节点.md","enabled":true,"constant":false,"priority":305,"phenomenon":"第二次过江","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江双桥","老栖江桥","新栖江桥","第二次过江","跨江公交"]},
     {"id":"SITE_RC04","region":"REGION06","path":"worldbook/locations/sites/SITE_RC04_平码头历史街区与水上巴士终点.md","enabled":true,"constant":false,"priority":300,"phenomenon":"未靠岸的末班渡","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["平码头","水上巴士","未靠岸的末班渡","旧码头","末班渡"]},
     {"id":"SITE_RC05","region":"REGION06","path":"worldbook/locations/sites/SITE_RC05_望江滨河公园与市民广场.md","enabled":true,"constant":false,"priority":295,"phenomenon":"退水台阶","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["望江滨河公园","望江市民广场","退水台阶","滨江公园","旧江岸"]},
     {"id":"SITE_RC06","region":"REGION06","path":"worldbook/locations/sites/SITE_RC06_栖江市城市博物馆.md","enabled":true,"constant":false,"priority":290,"phenomenon":"无来源展签","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["栖江市城市博物馆","城市博物馆","无来源展签","城市史展厅","旧地图展"]},
-
     {"id":"SITE_RU01","region":"SUBREGION01","path":"worldbook/locations/sites/SITE_RU01_清河镇老街与城乡公交首末站.md","enabled":true,"constant":false,"priority":285,"phenomenon":"返程站牌","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["清河镇","清河老街","城乡公交首末站","返程站牌","清河镇公交"]},
     {"id":"SITE_RU02","region":"SUBREGION01","path":"worldbook/locations/sites/SITE_RU02_南湾农贸集散中心与青禾农业合作社.md","enabled":true,"constant":false,"priority":280,"phenomenon":"多出来的一筐","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["南湾农贸集散中心","青禾农业合作社","南湾农贸","多出来的一筐","合作社"]},
     {"id":"SITE_RU03","region":"SUBREGION01","path":"worldbook/locations/sites/SITE_RU03_三合村与村文化礼堂.md","enabled":true,"constant":false,"priority":275,"phenomenon":"空着的一席","true_haunting_ref":null,"true_haunting_status":"pending_character_entry","keywords":["三合村","三合村文化礼堂","空着的一席","村礼堂","三合村宴席"]},
@@ -114,5 +109,5 @@
     "road_bridge_crossing": "SITE_RC03",
     "water_transit_supplement": "SITE_RC04"
   },
-  "next_stage": "run_full_location_layer_reaudit_after_municipal_rural_extension"
+  "next_stage": "begin_character_production"
 }
