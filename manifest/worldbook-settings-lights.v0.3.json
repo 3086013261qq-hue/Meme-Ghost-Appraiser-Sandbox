@@ -1,98 +1,32 @@
 {
   "schema": "meme-ghost-appraiser.worldbook-lights.v0.3",
-  "status": "blue_rebuild_in_progress",
+  "status": "blue_audit_passed",
   "policy": {
     "blue": "always_on",
     "green": "keyword_triggered",
     "precedence": "blue_over_green",
     "notes": [
-      "蓝灯正在逐条精修重建；只有本清单明确登记的蓝灯才属于现行常驻设定。",
+      "BLUE01-BLUE10 已完成逐条精修与横向一致性审计，现作为当前正式常驻世界骨架。",
       "旧文件 worldbook/settings/00_BLUE_世界核心常驻规则.md 已停止作为现行蓝灯使用，不得装配进角色卡。",
       "蓝灯只保存每轮不可遗忘的世界事实；机制展开、案例、分类、法律与流程下沉到绿灯。",
-      "绿灯不得覆盖、改写或否定蓝灯硬规则。"
+      "绿灯不得覆盖、改写或否定蓝灯硬规则。",
+      "大众日常化认知主要针对梗小鬼，不代表真祟已经成为可被社会稳定理解的普通现象。",
+      "梗小鬼由模因与共同认知参与塑造；真祟不依赖共同认知而存在。关于真祟的传说可形成模因，但其衍生梗小鬼与真祟本体必须分离。",
+      "传播规模不等于战斗力、恶意或危险等级；模因也不是能够把任意虚构内容改写成现实的万能机制。",
+      "法脉不是法力或修炼体系，而是代代积累的灵异处置经验；真祟恐怖必须保持未知与力量不对等，同时具体真祟的规则必须具备可追溯的内在一致性。"
     ]
   },
   "blue_entries": [
-    {
-      "id": "BLUE01",
-      "path": "worldbook/settings/BLUE01_总世界观.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 1000,
-      "keywords": []
-    },
-    {
-      "id": "BLUE02",
-      "path": "worldbook/settings/BLUE02_梗小鬼.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 990,
-      "keywords": []
-    },
-    {
-      "id": "BLUE03",
-      "path": "worldbook/settings/BLUE03_真祟.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 980,
-      "keywords": []
-    },
-    {
-      "id": "BLUE04",
-      "path": "worldbook/settings/BLUE04_收容法则.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 970,
-      "keywords": []
-    },
-    {
-      "id": "BLUE05",
-      "path": "worldbook/settings/BLUE05_梗小鬼鉴赏官.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 960,
-      "keywords": []
-    },
-    {
-      "id": "BLUE06",
-      "path": "worldbook/settings/BLUE06_灵异直播.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 950,
-      "keywords": []
-    },
-    {
-      "id": "BLUE07",
-      "path": "worldbook/settings/BLUE07_造梗.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 945,
-      "keywords": []
-    },
-    {
-      "id": "BLUE08",
-      "path": "worldbook/settings/BLUE08_法脉.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 940,
-      "keywords": []
-    },
-    {
-      "id": "BLUE09",
-      "path": "worldbook/settings/BLUE09_模因.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 935,
-      "keywords": []
-    },
-    {
-      "id": "BLUE10",
-      "path": "worldbook/settings/BLUE10_大恐怖.md",
-      "enabled": true,
-      "constant": true,
-      "priority": 930,
-      "keywords": []
-    }
+    {"id":"BLUE01","path":"worldbook/settings/BLUE01_总世界观.md","enabled":true,"constant":true,"priority":1000,"keywords":[]},
+    {"id":"BLUE02","path":"worldbook/settings/BLUE02_梗小鬼.md","enabled":true,"constant":true,"priority":990,"keywords":[]},
+    {"id":"BLUE03","path":"worldbook/settings/BLUE03_真祟.md","enabled":true,"constant":true,"priority":980,"keywords":[]},
+    {"id":"BLUE04","path":"worldbook/settings/BLUE04_收容法则.md","enabled":true,"constant":true,"priority":970,"keywords":[]},
+    {"id":"BLUE05","path":"worldbook/settings/BLUE05_梗小鬼鉴赏官.md","enabled":true,"constant":true,"priority":960,"keywords":[]},
+    {"id":"BLUE06","path":"worldbook/settings/BLUE06_灵异直播.md","enabled":true,"constant":true,"priority":950,"keywords":[]},
+    {"id":"BLUE07","path":"worldbook/settings/BLUE07_造梗.md","enabled":true,"constant":true,"priority":945,"keywords":[]},
+    {"id":"BLUE08","path":"worldbook/settings/BLUE08_法脉.md","enabled":true,"constant":true,"priority":940,"keywords":[]},
+    {"id":"BLUE09","path":"worldbook/settings/BLUE09_模因.md","enabled":true,"constant":true,"priority":935,"keywords":[]},
+    {"id":"BLUE10","path":"worldbook/settings/BLUE10_大恐怖.md","enabled":true,"constant":true,"priority":930,"keywords":[]}
   ],
   "planned_blue_entries": [],
   "green_entries": [
