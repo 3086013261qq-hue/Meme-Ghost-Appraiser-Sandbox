@@ -14,7 +14,8 @@
       "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；运行时随机池不写入世界观绿灯。",
       "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。",
       "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。",
-      "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。"
+      "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。",
+      "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。"
     ]
   },
   "blue_entries": [
@@ -50,7 +51,11 @@
     {"id":"GREEN18","parent_blue":"BLUE05","path":"worldbook/settings/GREEN18_鉴赏官岗位分工与混编.md","enabled":true,"constant":false,"priority":535,"keywords":["鉴赏官","外勤","岗位","分工","研判","档案","收容管理员","联络","法脉顾问","团队协作","混编"]},
     {"id":"GREEN19","parent_blue":"BLUE05","path":"worldbook/settings/GREEN19_标准办案链与任务流转.md","enabled":true,"constant":false,"priority":530,"keywords":["办案流程","任务流程","接报","筛查","研判流程","出勤","归档","复盘","任务流转","案件编号"]},
     {"id":"GREEN20","parent_blue":"BLUE05","path":"worldbook/settings/GREEN20_装备后勤与伪装身份.md","enabled":true,"constant":false,"priority":525,"keywords":["装备","后勤","车辆","证件","伪装身份","燃气检修","网络维护","封存袋","工牌","经费"]},
-    {"id":"GREEN21","parent_blue":"BLUE05","path":"worldbook/settings/GREEN21_见习制度与知识边界.md","enabled":true,"constant":false,"priority":520,"keywords":["见习","新人","入职","培训","任务权限","带教","实习","知识边界","档案权限","新人权限"]}
+    {"id":"GREEN21","parent_blue":"BLUE05","path":"worldbook/settings/GREEN21_见习制度与知识边界.md","enabled":true,"constant":false,"priority":520,"keywords":["见习","新人","入职","培训","任务权限","带教","实习","知识边界","档案权限","新人权限"]},
+    {"id":"GREEN22","parent_blue":"BLUE06","path":"worldbook/settings/GREEN22_灵异直播内容生态.md","enabled":true,"constant":false,"priority":515,"keywords":["灵异直播","探灵主播","直播栏目","直播内容","挑战怪谈","探店","打卡","主播生态"]},
+    {"id":"GREEN23","parent_blue":"BLUE06","path":"worldbook/settings/GREEN23_直播现场与事故边界.md","enabled":true,"constant":false,"priority":510,"keywords":["直播事故","直播现场","停播","撤离","围观","弹幕指挥","现场失控","主播受困","封锁现场"]},
+    {"id":"GREEN24","parent_blue":"BLUE06","path":"worldbook/settings/GREEN24_平台治理与传播干预.md","enabled":true,"constant":false,"priority":505,"keywords":["平台治理","限流","下架","封禁","直播平台","算法推荐","传播干预","关键词阻断","后台证据"]},
+    {"id":"GREEN25","parent_blue":"BLUE06","path":"worldbook/settings/GREEN25_直播责任与事后追责.md","enabled":true,"constant":false,"priority":500,"keywords":["直播责任","追责","造谣","摆拍","妨碍处置","偷拍视频","主播责任","事故责任","侵权","处罚"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -61,7 +66,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE06｜灵异直播",
     "BLUE07｜造梗",
     "BLUE08｜法脉",
     "BLUE09｜模因",
