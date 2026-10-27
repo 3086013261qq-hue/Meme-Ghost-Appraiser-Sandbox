@@ -1,6 +1,6 @@
 {
   "schema": "meme-ghost-appraiser.worldbook-lights.v0.5",
-  "status": "open_world_dynamic_generation_blue_audit_ready",
+  "status": "open_world_dynamic_generation_blue_audit_passed",
   "previous_manifest": "manifest/worldbook-settings-lights.v0.4.json",
   "policy": {
     "blue": "always_on",
