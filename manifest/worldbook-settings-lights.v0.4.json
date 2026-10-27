@@ -15,7 +15,8 @@
       "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。",
       "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。",
       "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。",
-      "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。"
+      "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。",
+      "BLUE07 的人为投放、商业与灰产、偏移失控及监管责任已经拆分；造梗不是精准召唤，正常创作与营销也不因映现风险而自动违法。"
     ]
   },
   "blue_entries": [
@@ -55,7 +56,11 @@
     {"id":"GREEN22","parent_blue":"BLUE06","path":"worldbook/settings/GREEN22_灵异直播内容生态.md","enabled":true,"constant":false,"priority":515,"keywords":["灵异直播","探灵主播","直播栏目","直播内容","挑战怪谈","探店","打卡","主播生态"]},
     {"id":"GREEN23","parent_blue":"BLUE06","path":"worldbook/settings/GREEN23_直播现场与事故边界.md","enabled":true,"constant":false,"priority":510,"keywords":["直播事故","直播现场","停播","撤离","围观","弹幕指挥","现场失控","主播受困","封锁现场"]},
     {"id":"GREEN24","parent_blue":"BLUE06","path":"worldbook/settings/GREEN24_平台治理与传播干预.md","enabled":true,"constant":false,"priority":505,"keywords":["平台治理","限流","下架","封禁","直播平台","算法推荐","传播干预","关键词阻断","后台证据"]},
-    {"id":"GREEN25","parent_blue":"BLUE06","path":"worldbook/settings/GREEN25_直播责任与事后追责.md","enabled":true,"constant":false,"priority":500,"keywords":["直播责任","追责","造谣","摆拍","妨碍处置","偷拍视频","主播责任","事故责任","侵权","处罚"]}
+    {"id":"GREEN25","parent_blue":"BLUE06","path":"worldbook/settings/GREEN25_直播责任与事后追责.md","enabled":true,"constant":false,"priority":500,"keywords":["直播责任","追责","造谣","摆拍","妨碍处置","偷拍视频","主播责任","事故责任","侵权","处罚"]},
+    {"id":"GREEN26","parent_blue":"BLUE07","path":"worldbook/settings/GREEN26_人为造梗与投放机制.md","enabled":true,"constant":false,"priority":495,"keywords":["造梗","推梗","投放","起梗","人为造梗","营销造梗","模因投放","设计热梗"]},
+    {"id":"GREEN27","parent_blue":"BLUE07","path":"worldbook/settings/GREEN27_商业利用与造梗灰产.md","enabled":true,"constant":false,"priority":490,"keywords":["商业造梗","灰产","营销团队","流量生意","模因营销","付费投放","异常营销","梗小鬼商业化"]},
+    {"id":"GREEN28","parent_blue":"BLUE07","path":"worldbook/settings/GREEN28_造梗偏移与失控.md","enabled":true,"constant":false,"priority":485,"keywords":["造梗失控","梗失控","偏移","玩坏","反噬","脱离控制","舆论反转","梗核偏移","人设崩坏"]},
+    {"id":"GREEN29","parent_blue":"BLUE07","path":"worldbook/settings/GREEN29_造梗监管与责任边界.md","enabled":true,"constant":false,"priority":480,"keywords":["造梗监管","造梗责任","异常营销责任","故意扩散","风险告知","隐瞒异常","责任追究","停止投放","异常项目"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -66,7 +71,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE07｜造梗",
     "BLUE08｜法脉",
     "BLUE09｜模因",
     "BLUE10｜大恐怖"
