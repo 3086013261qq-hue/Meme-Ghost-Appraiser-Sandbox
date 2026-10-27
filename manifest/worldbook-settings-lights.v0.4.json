@@ -17,7 +17,8 @@
       "BLUE05 的组织权限、岗位混编、办案流程、装备后勤与见习制度已经拆分；机构绿灯只定义制度与岗位模板，不生成具体人物、固定NPC、导师、前辈、搭档或角色专属装备。",
       "BLUE06 的直播内容生态、事故边界、平台治理与事后责任已经拆分；直播可以放大模因传播，但主动设计和推动新梗仍归 BLUE07 造梗展开。",
       "BLUE07 的人为投放、商业与灰产、偏移失控及监管责任已经拆分；造梗不是精准召唤，正常创作与营销也不因映现风险而自动违法。",
-      "BLUE08 的法脉共通原则、龙虎山系、全真系、崂山系、茅山系、少林与佛门、民间法脉及法器仪轨代价已经拆分；所有现实宗教与民俗名称仅作为本作架空延展，不宣称现实世界存在对应超自然能力。"
+      "BLUE08 的法脉共通原则、龙虎山系、全真系、崂山系、茅山系、少林与佛门、民间法脉及法器仪轨代价已经拆分；所有现实宗教与民俗名称仅作为本作架空延展，不宣称现实世界存在对应超自然能力。",
+      "BLUE09 的模因结构、传播变异、社会记忆与灵异边界已经拆分；模因首先是文化信息结构，绝大多数模因永远不会产生超自然异常。"
     ]
   },
   "blue_entries": [
@@ -69,7 +70,11 @@
     {"id":"GREEN34","parent_blue":"BLUE08","path":"worldbook/settings/GREEN34_茅山系_封缄禁忌与尸祟经验.md","enabled":true,"constant":false,"priority":455,"keywords":["茅山","封缄","尸祟","镇尸","棺","阴宅","墓葬禁忌"]},
     {"id":"GREEN35","parent_blue":"BLUE08","path":"worldbook/settings/GREEN35_少林与佛门法脉_守定护人与镇魔.md","enabled":true,"constant":false,"priority":450,"keywords":["少林","佛门","禅定","经咒","戒持","金刚","镇魔","护人"]},
     {"id":"GREEN36","parent_blue":"BLUE08","path":"worldbook/settings/GREEN36_民间法脉_傩法祝由与家传经验.md","enabled":true,"constant":false,"priority":445,"keywords":["民间法脉","傩法","祝由","家传法门","地方传承","乡土法门"]},
-    {"id":"GREEN37","parent_blue":"BLUE08","path":"worldbook/settings/GREEN37_法器仪轨与施行代价.md","enabled":true,"constant":false,"priority":440,"keywords":["法器","仪轨","科仪代价","施术反噬","法器损坏","仪式条件","施术失败"]}
+    {"id":"GREEN37","parent_blue":"BLUE08","path":"worldbook/settings/GREEN37_法器仪轨与施行代价.md","enabled":true,"constant":false,"priority":440,"keywords":["法器","仪轨","科仪代价","施术反噬","法器损坏","仪式条件","施术失败"]},
+    {"id":"GREEN38","parent_blue":"BLUE09","path":"worldbook/settings/GREEN38_模因结构与识别.md","enabled":true,"constant":false,"priority":435,"keywords":["模因结构","识别结构","核心符号","传播单元","文化信息","模因识别","梗是什么","共同识别"]},
+    {"id":"GREEN39","parent_blue":"BLUE09","path":"worldbook/settings/GREEN39_模因传播复制与变异.md","enabled":true,"constant":false,"priority":430,"keywords":["模因传播","复制","变异","误传","二创","恶搞","方言版","社群版本","传播路径","模因变体"]},
+    {"id":"GREEN40","parent_blue":"BLUE09","path":"worldbook/settings/GREEN40_社会记忆与旧梗复兴.md","enabled":true,"constant":false,"priority":425,"keywords":["旧梗","过气梗","复古","考古","旧梗复兴","重新爆火","社会记忆","集体记忆","遗忘","怀旧"]},
+    {"id":"GREEN41","parent_blue":"BLUE09","path":"worldbook/settings/GREEN41_模因与灵异边界.md","enabled":true,"constant":false,"priority":420,"keywords":["模因边界","灵异边界","相信成真","集体相信","虚构成真","怪谈成真","模因异常","非灵异模因"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -80,7 +85,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE09｜模因",
     "BLUE10｜大恐怖"
   ]
 }
