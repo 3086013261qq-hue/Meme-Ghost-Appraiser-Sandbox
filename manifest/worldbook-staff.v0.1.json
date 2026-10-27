@@ -1,0 +1,82 @@
+{
+  "schema": "meme-ghost-appraiser.staff.v0.1",
+  "status": "ordinary_staff_batch01_ready_for_audit",
+  "baseline": "3996bcd79fdfe07d17c36dfc123bc25c44444955",
+  "audit": "qa/人物层_异模办六名普通工作人员审计_v0.1.md",
+  "format": {
+    "character_tag": "<姓名character>",
+    "role_tag": "<核心设定:姓名·岗位>",
+    "storage": "character_and_role_sibling_blocks_in_same_file",
+    "activation": "green_keyword_triggered"
+  },
+  "policy": {
+    "all_staff_are_human": true,
+    "all_staff_are_female": true,
+    "staff_have_lineage": false,
+    "staff_have_artifacts": false,
+    "staff_have_anomalous_traits": false,
+    "staff_gain_supernatural_resistance_from_work": false,
+    "staff_are_not_appraisers": true,
+    "staff_do_not_enter_high_risk_true_haunting_core_by_default": true,
+    "professional_competence_is_mundane": true,
+    "comedic_personality_does_not_equal_incompetence": true,
+    "organization_name": "栖江市异常模因、都市传闻及非常规民俗现象管理办公室",
+    "organization_short_name": "异模办",
+    "folk_internal_name": "梗小鬼鉴赏局"
+  },
+  "counts": {
+    "fixed_ordinary_staff": 6,
+    "fixed_appraisers_separate": 10
+  },
+  "entries": [
+    {
+      "id": "STAFF01",
+      "name": "柳圆圆",
+      "role": ["值班接警", "任务调度", "通讯中枢"],
+      "path": "worldbook/characters/other/STAFF01_柳圆圆.md",
+      "core_comedy": "电话内标准客服，电话外嘴碎零食怪",
+      "keywords": ["柳圆圆", "值班台", "接警", "任务调度", "异模办热线"]
+    },
+    {
+      "id": "STAFF02",
+      "name": "程书禾",
+      "role": ["档案管理", "民俗资料", "旧案检索"],
+      "path": "worldbook/characters/other/STAFF02_程书禾.md",
+      "core_comedy": "档案洁癖与八卦雷达并存",
+      "keywords": ["程书禾", "档案", "旧案", "民俗资料", "卷宗"]
+    },
+    {
+      "id": "STAFF03",
+      "name": "唐梨",
+      "role": ["平台舆情", "数字证据", "模因传播研判"],
+      "path": "worldbook/characters/other/STAFF03_唐梨.md",
+      "core_comedy": "说话像评论区成精，报告像法务写的",
+      "keywords": ["唐梨", "舆情", "数字证据", "平台", "原始上传", "传播链"]
+    },
+    {
+      "id": "STAFF04",
+      "name": "罗砚青",
+      "role": ["后勤管理", "收容登记", "库房", "车辆装备"],
+      "path": "worldbook/characters/other/STAFF04_罗砚青.md",
+      "core_comedy": "嘴上全叫破烂，谁敢乱动她的破烂谁完了",
+      "keywords": ["罗砚青", "后勤", "库房", "车辆", "装备", "收容登记"]
+    },
+    {
+      "id": "STAFF05",
+      "name": "钱满满",
+      "role": ["财务采购", "行政报销", "基础人事", "杂务统筹"],
+      "path": "worldbook/characters/other/STAFF05_钱满满.md",
+      "core_comedy": "报销阎王，但安全支出从不省",
+      "keywords": ["钱满满", "财务", "采购", "报销", "预算", "发票"]
+    },
+    {
+      "id": "STAFF06",
+      "name": "周弦月",
+      "role": ["公共系统联络", "行政协同", "证件", "风险保障"],
+      "path": "worldbook/characters/other/STAFF06_周弦月.md",
+      "core_comedy": "私人电话社恐，公务电话战神",
+      "keywords": ["周弦月", "公共系统", "协同", "联络", "证件", "封控"]
+    }
+  ],
+  "next_stage": "audit_then_decide_whether_to_add_more_recurring_civilian_staff_or_keep_remaining_roles_generated"
+}
