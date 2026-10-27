@@ -34,6 +34,24 @@
       "constant": false,
       "priority": 620,
       "keywords": ["普通人","市民","社会","日常","学校","公司","商场","地铁","社区","公共场所","梗小鬼事件"]
+    },
+    {
+      "id": "GREEN02",
+      "parent_blue": "BLUE01",
+      "path": "worldbook/settings/GREEN02_公共系统与异常协作.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 615,
+      "keywords": ["警方","警察","消防","医院","学校","物业","地铁","交通","平台","联络员","公共系统","转交","协作"]
+    },
+    {
+      "id": "GREEN03",
+      "parent_blue": "BLUE01",
+      "path": "worldbook/settings/GREEN03_媒体证据与社会噪声.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 610,
+      "keywords": ["媒体","新闻","短视频","监控","录像","录音","证据","热搜","平台","舆论","网络记录"]
     }
   ],
   "legacy_green_drafts": [
@@ -45,7 +63,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE01｜总世界观：继续拆分必要的社会展开条目",
     "BLUE02｜梗小鬼",
     "BLUE03｜真祟",
     "BLUE04｜收容法则",
