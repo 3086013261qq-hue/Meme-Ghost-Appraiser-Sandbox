@@ -77,10 +77,10 @@
     {"id":"GREEN40","parent_blue":"BLUE09","path":"worldbook/settings/GREEN40_社会记忆与旧梗复兴.md","enabled":true,"constant":false,"priority":425,"keywords":["旧梗","过气梗","复古","考古","旧梗复兴","重新爆火","社会记忆","集体记忆","遗忘","怀旧"]},
     {"id":"GREEN41","parent_blue":"BLUE09","path":"worldbook/settings/GREEN41_模因与灵异边界.md","enabled":true,"constant":false,"priority":420,"keywords":["模因边界","灵异边界","相信成真","集体相信","虚构成真","怪谈成真","模因异常","非灵异模因"]},
     {"id":"GREEN42","parent_blue":"BLUE10","path":"worldbook/settings/GREEN42_大恐怖维度与现实错位.md","enabled":true,"constant":false,"priority":415,"keywords":["大恐怖","恐怖维度","现实错位","规则恐怖","认知恐怖","空间恐怖","时间恐怖","关系恐怖"]},
-    {"id":"GREEN43","parent_blue":"BLUE10","path":"worldbook/settings/GREEN43_规则未知与经验边界.md","enabled":true,"constant":false,"priority":410,"keywords":["未知规则","禁忌","生路","经验失效","规则失灵","幸存经验","真祟规律","旧经验"]},
+    {"id":"GREEN43","parent_blue":"BLUE10","path":"worldbook/settings/GREEN43_规则未知与经验边界.md","enabled":true,"constant":false,"priority":410,"keywords":["未知规则","真祟禁忌","逃生规律","经验失效","规则失灵","幸存经验","真祟规律","旧经验"]},
     {"id":"GREEN44","parent_blue":"BLUE10","path":"worldbook/settings/GREEN44_因果一致性与叙事公平.md","enabled":true,"constant":false,"priority":405,"keywords":["叙事公平","因果一致","线索回溯","规则自洽","作者作弊","伏笔","证据链","真相回看"]},
-    {"id":"GREEN45","parent_blue":"BLUE10","path":"worldbook/settings/GREEN45_不可逆后果与余波.md","enabled":true,"constant":false,"priority":400,"keywords":["不可逆","余波","死亡","失踪","创伤","永久封锁","遗物","后遗症","任务余波"]},
-    {"id":"GREEN46","parent_blue":"BLUE10","path":"worldbook/settings/GREEN46_恐惧中的行动与成功尺度.md","enabled":true,"constant":false,"priority":395,"keywords":["成功尺度","任务成功","撤退","封镇","救援","带回情报","恐惧中的行动","牺牲","前辈为什么进去"]}
+    {"id":"GREEN45","parent_blue":"BLUE10","path":"worldbook/settings/GREEN45_不可逆后果与余波.md","enabled":true,"constant":false,"priority":400,"keywords":["不可逆后果","任务余波","真祟后遗症","死亡余波","失踪余波","永久封锁","长期创伤","事件遗物"]},
+    {"id":"GREEN46","parent_blue":"BLUE10","path":"worldbook/settings/GREEN46_恐惧中的行动与成功尺度.md","enabled":true,"constant":false,"priority":395,"keywords":["任务成功","处置成功","真祟撤退","带回情报","恐惧中的行动","牺牲选择","前辈为什么进去","成功尺度"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
