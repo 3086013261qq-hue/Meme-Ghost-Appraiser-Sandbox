@@ -46,6 +46,14 @@
       "keywords": []
     },
     {
+      "id": "BLUE05",
+      "path": "worldbook/settings/BLUE05_梗小鬼鉴赏官.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 960,
+      "keywords": []
+    },
+    {
       "id": "BLUE06",
       "path": "worldbook/settings/BLUE06_灵异直播.md",
       "enabled": true,
@@ -63,7 +71,6 @@
     }
   ],
   "planned_blue_entries": [
-    "BLUE05｜梗小鬼鉴赏官",
     "BLUE08｜真祟恐怖尺度"
   ],
   "green_entries": [
