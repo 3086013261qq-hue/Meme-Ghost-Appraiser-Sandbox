@@ -84,11 +84,17 @@
       "constant": true,
       "priority": 935,
       "keywords": []
+    },
+    {
+      "id": "BLUE10",
+      "path": "worldbook/settings/BLUE10_大恐怖.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 930,
+      "keywords": []
     }
   ],
-  "planned_blue_entries": [
-    "BLUE10｜真祟恐怖尺度"
-  ],
+  "planned_blue_entries": [],
   "green_entries": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
     "worldbook/settings/03_GREEN_真祟与恐怖规则.md",
