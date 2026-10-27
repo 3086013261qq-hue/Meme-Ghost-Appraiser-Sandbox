@@ -1,6 +1,6 @@
 {
   "schema": "meme-ghost-appraiser.true-hauntings.v0.2",
-  "status": "external_city_true_haunting_batch02_audit_ready",
+  "status": "external_city_true_haunting_batch02_audit_passed",
   "baseline": "f1ea4ad3d6cf332650c20b5fcee4aa26e7181af1",
   "previous_manifest": "manifest/worldbook-true-hauntings.v0.1.json",
   "audit": "qa/真祟层_六座外市一城一真祟审计_v0.2.md",
@@ -53,5 +53,5 @@
     "forbidden": ["automatic_second_open_world_map", "full_city_site_expansion_without_later_authorization"]
   },
   "separate_existing_true_haunting_appraisers": ["APP02_白月绫", "APP04_陶夭夭"],
-  "next_stage": "audit_then_design_cross_city_case_hooks_without_expanding_external_city_maps"
+  "next_stage": "design_cross_city_case_hooks_without_expanding_external_city_maps"
 }
