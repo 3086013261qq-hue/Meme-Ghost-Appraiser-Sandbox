@@ -4,4 +4,4 @@
 
 现行蓝灯改为逐条精修、独立文件管理。
 
-请以 `manifest/worldbook-settings-lights.v0.3.json` 中登记的 `blue_entries` 为唯一现行蓝灯来源。
+请以 `manifest/worldbook-settings-lights.v0.4.json` 中登记的 `blue_entries` 为唯一现行蓝灯来源。
