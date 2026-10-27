@@ -30,7 +30,7 @@
     {"id":"APP07","name":"闻墨","rank":"正式鉴赏官","nature":"human","lineage":"少林与佛门法脉·钵器镇摄与护持经验","artifact":"伪装成烟灰缸的紫金钵","path":"worldbook/characters/main/APP07_闻墨.md","keywords":["闻墨","闻墨前辈","紫金钵烟灰缸"]},
     {"id":"APP08","name":"程穗","rank":"正式鉴赏官","nature":"human","lineage":"少林与佛门法脉·金刚护持与定点经验","artifact":"伪装成马桶搋子的金刚杵","path":"worldbook/characters/main/APP08_程穗.md","keywords":["程穗","女仆鉴赏官","马桶搋子金刚杵"]},
     {"id":"APP09","name":"许枝枝","rank":"见习鉴赏官","nature":"human","lineage":"民间法脉·家传盘龙棍与地方异常经验","artifact":"伪装成衣架的盘龙棍","path":"worldbook/characters/main/APP09_许枝枝.md","keywords":["许枝枝","枝枝","呆毛见习"]},
-    {"id":"APP10","name":"夏酌","rank":"见习鉴赏官","nature":"human","lineage":"茅山系·封缄禁忌与定点经验","artifact":"伪装成装饰的连弩","path":"worldbook/characters/main/APP10_夏酌.md","keywords":["夏酌","酒蒙子见习","封缄连弩"]}
+    {"id":"APP10","name":"夏酌","rank":"见习鉴赏官","nature":"human","lineage":"茅山系·封缄禁忌与阵位经验","artifact":"伪装成廉价小彩旗的阵旗组","path":"worldbook/characters/main/APP10_夏酌.md","keywords":["夏酌","酒蒙子见习","彩旗阵旗"]}
   ],
   "counts": {
     "chief": 1,
