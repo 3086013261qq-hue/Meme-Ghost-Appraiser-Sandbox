@@ -11,8 +11,9 @@
       "v0.3 及更早版本列出的 01_GREEN-06_GREEN 粗绿灯保留为历史草稿，不得与新绿灯同时装配。",
       "绿灯负责机制、社会细节、分类、案例与流程展开，不得覆盖或改写上位蓝灯。",
       "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。",
-      "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；收容闭环与载体继续归 BLUE04 展开，运行时随机池不写入世界观绿灯。",
-      "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。"
+      "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；运行时随机池不写入世界观绿灯。",
+      "BLUE03 的工作分类、成因依附、识别误判与非敌对共存已经拆分；大恐怖尺度继续归 BLUE10 展开，固定地点叙事规则不写回真祟分类绿灯。",
+      "BLUE04 的梗闭环、收容形态、收容失效与现场暴力边界已经拆分；收容优先不等于禁止战斗，击散也不等于结案。"
     ]
   },
   "blue_entries": [
@@ -39,7 +40,11 @@
     {"id":"GREEN09","parent_blue":"BLUE03","path":"worldbook/settings/GREEN09_真祟工作分类.md","enabled":true,"constant":false,"priority":580,"keywords":["真祟分类","工作分类","鬼类","怪类","妖类","邪类","煞类","归类","改判"]},
     {"id":"GREEN10","parent_blue":"BLUE03","path":"worldbook/settings/GREEN10_真祟成因与依附.md","enabled":true,"constant":false,"priority":575,"keywords":["成因","来源","依附","寄宿","死亡现场","邪物","凶地","灵异地点"]},
     {"id":"GREEN11","parent_blue":"BLUE03","path":"worldbook/settings/GREEN11_真祟识别与误判.md","enabled":true,"constant":false,"priority":570,"keywords":["误判","识别真祟","真祟判定","不是梗小鬼","真祟迹象","调查判断","未定性","双层案件"]},
-    {"id":"GREEN12","parent_blue":"BLUE03","path":"worldbook/settings/GREEN12_非敌对真祟与共存边界.md","enabled":true,"constant":false,"priority":565,"keywords":["非敌对","共存","交流","合作","善意","无害","特殊居民","知情人","协作者"]}
+    {"id":"GREEN12","parent_blue":"BLUE03","path":"worldbook/settings/GREEN12_非敌对真祟与共存边界.md","enabled":true,"constant":false,"priority":565,"keywords":["非敌对","共存","交流","合作","善意","无害","特殊居民","知情人","协作者"]},
+    {"id":"GREEN13","parent_blue":"BLUE04","path":"worldbook/settings/GREEN13_梗闭环与收容判定.md","enabled":true,"constant":false,"priority":560,"keywords":["梗闭环","收容判定","收容成功","接梗","反梗","破梗","逻辑闭环"]},
+    {"id":"GREEN14","parent_blue":"BLUE04","path":"worldbook/settings/GREEN14_模因载体与收容形态.md","enabled":true,"constant":false,"priority":555,"keywords":["模因载体","收容载体","封存","安置","约束","隔离","寄存","收容形态"]},
+    {"id":"GREEN15","parent_blue":"BLUE04","path":"worldbook/settings/GREEN15_收容松动与失效.md","enabled":true,"constant":false,"priority":550,"keywords":["收容失败","收容松动","失效","脱离收容","逃逸","失稳","封存破坏","再处置"]},
+    {"id":"GREEN16","parent_blue":"BLUE04","path":"worldbook/settings/GREEN16_现场处置与暴力边界.md","enabled":true,"constant":false,"priority":545,"keywords":["现场处置","击散","击退","暴力","战斗","救人","拖延","强制处置","紧急处置"]}
   ],
   "legacy_green_drafts": [
     "worldbook/settings/06_GREEN_灵异底层机制与现实共存.md",
@@ -50,7 +55,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE04｜收容法则",
     "BLUE05｜梗小鬼鉴赏官",
     "BLUE06｜灵异直播",
     "BLUE07｜造梗",
