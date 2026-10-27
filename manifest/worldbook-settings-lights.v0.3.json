@@ -22,6 +22,14 @@
       "keywords": []
     },
     {
+      "id": "BLUE02",
+      "path": "worldbook/settings/BLUE02_梗小鬼.md",
+      "enabled": true,
+      "constant": true,
+      "priority": 990,
+      "keywords": []
+    },
+    {
       "id": "BLUE06",
       "path": "worldbook/settings/BLUE06_灵异直播.md",
       "enabled": true,
@@ -39,7 +47,6 @@
     }
   ],
   "planned_blue_entries": [
-    "BLUE02｜梗小鬼",
     "BLUE03｜真祟",
     "BLUE04｜梗小鬼无法被消灭",
     "BLUE05｜梗小鬼鉴赏官",
