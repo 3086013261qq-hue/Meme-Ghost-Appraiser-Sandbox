@@ -36,9 +36,9 @@
     {"id":"GREEN06","parent_blue":"BLUE02","path":"worldbook/settings/GREEN06_梗核与人格.md","enabled":true,"constant":false,"priority":595,"keywords":["梗核","人格","性格","角色感","个性","记忆","喜好","破防"]},
     {"id":"GREEN07","parent_blue":"BLUE02","path":"worldbook/settings/GREEN07_等效点赞与传播规模.md","enabled":true,"constant":false,"priority":590,"keywords":["点赞","等效点赞","传播规模","热度","百万赞","千万赞","全网","爆火","扩散","评级"]},
     {"id":"GREEN08","parent_blue":"BLUE02","path":"worldbook/settings/GREEN08_同源分支与复现.md","enabled":true,"constant":false,"priority":585,"keywords":["同源","复现","再出现","同源个体","模因分支","复活","记忆继承"]},
-    {"id":"GREEN09","parent_blue":"BLUE03","path":"worldbook/settings/GREEN09_真祟工作分类.md","enabled":true,"constant":false,"priority":580,"keywords":["鬼","怪","妖","邪","煞","真祟分类","工作分类","归类"]},
+    {"id":"GREEN09","parent_blue":"BLUE03","path":"worldbook/settings/GREEN09_真祟工作分类.md","enabled":true,"constant":false,"priority":580,"keywords":["真祟分类","工作分类","鬼类","怪类","妖类","邪类","煞类","归类","改判"]},
     {"id":"GREEN10","parent_blue":"BLUE03","path":"worldbook/settings/GREEN10_真祟成因与依附.md","enabled":true,"constant":false,"priority":575,"keywords":["成因","来源","依附","寄宿","死亡现场","邪物","凶地","灵异地点"]},
-    {"id":"GREEN11","parent_blue":"BLUE03","path":"worldbook/settings/GREEN11_真祟识别与误判.md","enabled":true,"constant":false,"priority":570,"keywords":["误判","识别","判定","不是梗小鬼","真祟迹象","异常来源","传播源","调查判断"]},
+    {"id":"GREEN11","parent_blue":"BLUE03","path":"worldbook/settings/GREEN11_真祟识别与误判.md","enabled":true,"constant":false,"priority":570,"keywords":["误判","识别真祟","真祟判定","不是梗小鬼","真祟迹象","调查判断","未定性","双层案件"]},
     {"id":"GREEN12","parent_blue":"BLUE03","path":"worldbook/settings/GREEN12_非敌对真祟与共存边界.md","enabled":true,"constant":false,"priority":565,"keywords":["非敌对","共存","交流","合作","善意","无害","特殊居民","知情人","协作者"]}
   ],
   "legacy_green_drafts": [
