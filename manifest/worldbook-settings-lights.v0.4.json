@@ -10,7 +10,8 @@
       "绿灯从 v0.4 起按上位蓝灯逐条重建；只有 active_green_entries 中登记的绿灯属于当前现行展开条目。",
       "v0.3 及更早版本列出的 01_GREEN-06_GREEN 粗绿灯保留为历史草稿，不得与新绿灯同时装配。",
       "绿灯负责机制、社会细节、分类、案例与流程展开，不得覆盖或改写上位蓝灯。",
-      "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。"
+      "单个绿灯应围绕一个明确语义主题设置关键词，避免使用过宽关键词导致多条绿灯无意义同时触发。",
+      "BLUE02 的映现、生命周期、梗核人格、传播评级与同源复现已经拆分；收容闭环与载体继续归 BLUE04 展开，运行时随机池不写入世界观绿灯。"
     ]
   },
   "blue_entries": [
@@ -52,6 +53,51 @@
       "constant": false,
       "priority": 610,
       "keywords": ["媒体","新闻","短视频","监控","录像","录音","证据","热搜","舆论","偷拍视频","网络记录","平台治理"]
+    },
+    {
+      "id": "GREEN04",
+      "parent_blue": "BLUE02",
+      "path": "worldbook/settings/GREEN04_映现与诞生条件.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 605,
+      "keywords": ["映现","诞生","形成","凝形","出现","热梗","模仿","传播","共同印象","梗核"]
+    },
+    {
+      "id": "GREEN05",
+      "parent_blue": "BLUE02",
+      "path": "worldbook/settings/GREEN05_梗小鬼生命周期.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 600,
+      "keywords": ["生命周期","萌芽","凝形","现身","定型","沉寂","活跃","复现","状态"]
+    },
+    {
+      "id": "GREEN06",
+      "parent_blue": "BLUE02",
+      "path": "worldbook/settings/GREEN06_梗核与人格.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 595,
+      "keywords": ["梗核","人格","性格","台词","行为","能力","角色感","关系","成长","破防"]
+    },
+    {
+      "id": "GREEN07",
+      "parent_blue": "BLUE02",
+      "path": "worldbook/settings/GREEN07_等效点赞与传播规模.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 590,
+      "keywords": ["点赞","等效点赞","传播规模","热度","百万赞","千万赞","全网","爆火","扩散","评级"]
+    },
+    {
+      "id": "GREEN08",
+      "parent_blue": "BLUE02",
+      "path": "worldbook/settings/GREEN08_同源分支与复现.md",
+      "enabled": true,
+      "constant": false,
+      "priority": 585,
+      "keywords": ["同源","复现","再出现","分支","变体","版本","同一个梗","复制","复活","记忆继承"]
     }
   ],
   "legacy_green_drafts": [
@@ -63,7 +109,6 @@
     "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md"
   ],
   "planned_green_expansion": [
-    "BLUE02｜梗小鬼",
     "BLUE03｜真祟",
     "BLUE04｜收容法则",
     "BLUE05｜梗小鬼鉴赏官",
