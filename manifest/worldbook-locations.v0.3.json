@@ -1,0 +1,42 @@
+{
+  "schema": "meme-ghost-appraiser.worldbook-locations.v0.3",
+  "status": "south_old_city_core_sites_batch01_qa_passed",
+  "baseline": "a2e902f13692004ea5f5a3ba59d44e468f9bd40a",
+  "policy": {
+    "activation": "mixed_blue_green",
+    "notes": [
+      "REGION00 继续作为地点层蓝灯常驻；REGION01-REGION06、EXT01-EXT06 与全部 SITE 条目均为绿灯关键词触发。",
+      "SITE_NC01-SITE_NC04 是南城老城区第一批正式核心地点，每个地点预设且仅锁定一条主真祟隐藏主线骨架。",
+      "地点条目必须先维持正常社会功能，再承载梗小鬼随机生态和固定真祟主线；不得写成灵异主题乐园。",
+      "随机梗小鬼、直播挑战和网络传闻不得替换、重写或自动解释固定真祟主线。",
+      "固定真祟条目当前只达到地点骨架级，不生成独立完整真祟角色/怪异条目，不封死全部规律、唯一解法或城市级最终答案。",
+      "人物、固定前辈、导师、领导、地点负责人、受害者、幸存者与NPC姓名继续留给人物生产阶段。"
+    ]
+  },
+  "blue_entries": [
+    {"id":"REGION00","path":"worldbook/locations/regions/REGION00_栖江市总体概念与区域骨架.md","enabled":true,"constant":true,"priority":500,"keywords":[]}
+  ],
+  "green_regions": [
+    {"id":"REGION01","path":"worldbook/locations/regions/REGION01_南城老城区.md","enabled":true,"constant":false,"priority":490,"keywords":["南城老城区","南城","老城区","老街","老社区","老医院","旧学校","家属院","老码头"]},
+    {"id":"REGION02","path":"worldbook/locations/regions/REGION02_北岸新城区.md","enabled":true,"constant":false,"priority":485,"keywords":["北岸新城区","北岸新城","北岸","CBD","商业综合体","直播公司","互联网公司","新住宅区"]},
+    {"id":"REGION03","path":"worldbook/locations/regions/REGION03_东部大学城.md","enabled":true,"constant":false,"priority":480,"keywords":["东部大学城","大学城","高校","校园怪谈","宿舍","图书馆","学生街","科研园"]},
+    {"id":"REGION04","path":"worldbook/locations/regions/REGION04_西部老工业带.md","enabled":true,"constant":false,"priority":475,"keywords":["西部老工业带","老工业区","旧厂区","物流园","货运铁路","仓库","工人社区","废厂"]},
+    {"id":"REGION05","path":"worldbook/locations/regions/REGION05_西北山麓水库带.md","enabled":true,"constant":false,"priority":470,"keywords":["西北山麓","水库","山林","森林公园","隧道","旧村","山路","城市边缘"]},
+    {"id":"REGION06","path":"worldbook/locations/regions/REGION06_沿江中央带.md","enabled":true,"constant":false,"priority":465,"keywords":["沿江中央带","栖江两岸","滨江","跨江桥","地铁换乘","码头","滨江公园","城市中轴"]}
+  ],
+  "external_cities": [
+    {"id":"EXT01","path":"worldbook/locations/regions/EXT01_京华市.md","enabled":true,"constant":false,"priority":420,"keywords":["京华市","京华"]},
+    {"id":"EXT02","path":"worldbook/locations/regions/EXT02_海津市.md","enabled":true,"constant":false,"priority":415,"keywords":["海津市","海津"]},
+    {"id":"EXT03","path":"worldbook/locations/regions/EXT03_岭州市.md","enabled":true,"constant":false,"priority":410,"keywords":["岭州市","岭州"]},
+    {"id":"EXT04","path":"worldbook/locations/regions/EXT04_蜀都市.md","enabled":true,"constant":false,"priority":405,"keywords":["蜀都市","蜀都"]},
+    {"id":"EXT05","path":"worldbook/locations/regions/EXT05_临海市.md","enabled":true,"constant":false,"priority":400,"keywords":["临海市","临海"]},
+    {"id":"EXT06","path":"worldbook/locations/regions/EXT06_北陵市.md","enabled":true,"constant":false,"priority":395,"keywords":["北陵市","北陵"]}
+  ],
+  "sites": [
+    {"id":"SITE_NC01","region":"REGION01","path":"worldbook/locations/sites/SITE_NC01_栖江市第二人民医院南院区.md","enabled":true,"constant":false,"priority":455,"keywords":["第二人民医院","二院南院区","南院区","夜班交接","老住院楼"]},
+    {"id":"SITE_NC02","region":"REGION01","path":"worldbook/locations/sites/SITE_NC02_栖江市南城中学.md","enabled":true,"constant":false,"priority":450,"keywords":["南城中学","缺席名单","旧教学楼","点名","校史馆"]},
+    {"id":"SITE_NC03","region":"REGION01","path":"worldbook/locations/sites/SITE_NC03_长宁机械厂家属院.md","enabled":true,"constant":false,"priority":445,"keywords":["长宁机械厂","长宁家属院","四栋零单元","零单元"]},
+    {"id":"SITE_NC04","region":"REGION01","path":"worldbook/locations/sites/SITE_NC04_柳荫街历史街区.md","enabled":true,"constant":false,"priority":440,"keywords":["柳荫街","柳荫街历史街区","回门牌","旧门牌","隐藏路线"]}
+  ],
+  "next_stage": "review_south_old_city_batch01_then_continue_or_revise"
+}
