@@ -1,7 +1,8 @@
 {
   "schema": "meme-ghost-appraiser.worldbook-locations.v1.0",
-  "status": "all_core_regions_complete_ready_for_full_audit",
+  "status": "location_layer_full_audit_passed",
   "baseline": "944f108231328e2c684d530cf691fef9284ed4e0",
+  "audit": "qa/地点层_完整总审计_v1.0.md",
   "policy": {
     "activation": "mixed_blue_green",
     "site_semantics": "phenomenon_then_true_haunting_character",
@@ -94,5 +95,5 @@
     "core_sites": 36,
     "pending_true_haunting_refs": 36
   },
-  "next_stage": "run_full_location_layer_audit_then_begin_character_production_if_passed"
+  "next_stage": "begin_character_production"
 }
