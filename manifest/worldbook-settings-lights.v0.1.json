@@ -1,0 +1,64 @@
+{
+  "schema": "meme-ghost-appraiser.worldbook-lights.v0.1",
+  "policy": {
+    "blue": "always_on",
+    "green": "keyword_triggered",
+    "precedence": "blue_over_green",
+    "notes": [
+      "蓝灯仅保留每轮不可遗忘的世界底层事实。",
+      "绿灯仅在相关语义/关键词命中时展开，避免同时激活造成上下文膨胀。",
+      "绿灯不得覆盖、改写或否定蓝灯硬规则。",
+      "固定地点真祟不得被随机梗小鬼或AI临场生成怪谈替换。"
+    ]
+  },
+  "entries": [
+    {
+      "path": "worldbook/settings/00_BLUE_世界核心常驻规则.md",
+      "light": "blue",
+      "enabled": true,
+      "constant": true,
+      "priority": 1000,
+      "keywords": []
+    },
+    {
+      "path": "worldbook/settings/01_GREEN_梗小鬼与模因异常.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 520,
+      "keywords": ["梗小鬼", "模因", "热梗", "点赞", "短视频", "收容", "表情包", "网络怪谈", "都市传闻"]
+    },
+    {
+      "path": "worldbook/settings/02_GREEN_梗小鬼鉴赏局.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 510,
+      "keywords": ["鉴赏局", "鉴赏官", "见习", "新人", "任务", "外勤", "总部", "收容室", "官方组织"]
+    },
+    {
+      "path": "worldbook/settings/03_GREEN_真祟与恐怖规则.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 560,
+      "keywords": ["真祟", "恶鬼", "鬼", "怪", "妖", "邪", "煞", "封印", "失联", "死亡", "禁地", "恐怖", "调查"]
+    },
+    {
+      "path": "worldbook/settings/04_GREEN_法脉与处置体系.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 540,
+      "keywords": ["法脉", "龙虎山", "全真", "崂山", "少林", "符箓", "雷法", "阵法", "科仪", "佛法", "法器", "驱邪"]
+    },
+    {
+      "path": "worldbook/settings/05_GREEN_城市怪谈生态与隐藏主线.md",
+      "light": "green",
+      "enabled": true,
+      "constant": false,
+      "priority": 500,
+      "keywords": ["城市", "怪谈", "传闻", "地点", "隐藏主线", "遗痕", "旧档案", "网络传播", "真相"]
+    }
+  ]
+}
