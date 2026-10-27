@@ -1,0 +1,107 @@
+{
+  "schema": "meme-ghost-appraiser.true-hauntings.v0.1",
+  "status": "regional_true_haunting_batch01_ready_for_audit",
+  "baseline": "668c04f12cb8507f439c0a9ff1d0e28be58006f2",
+  "audit": "qa/真祟层_七只区域与乡镇真祟人物条目审计_v0.1.md",
+  "format": {
+    "character_tag": "<真祟名character>",
+    "ability_tag": "<核心设定:真祟名·能力>",
+    "storage": "character_and_ability_sibling_blocks_in_same_file",
+    "activation": "green_keyword_triggered"
+  },
+  "policy": {
+    "myth_names_are_human_working_names_not_cosmic_true_names": true,
+    "true_haunting_is_entity_first_rule_anomaly_second": true,
+    "rule_anomalies_are_presence_field_not_skill_list": true,
+    "human_magic": false,
+    "lineage_is_survival_experience_not_power_system": true,
+    "artifacts_are_conditional_tools_not_counters": true,
+    "site_phenomenon_equals_true_haunting": false,
+    "all_linked_sites_directly_caused_by_main_true_haunting": false,
+    "boss_fight_model": false
+  },
+  "counts": {
+    "main_regions": 6,
+    "main_region_true_hauntings": 6,
+    "municipal_subregion_local_true_hauntings": 1,
+    "batch_total": 7
+  },
+  "classification_coverage": ["鬼", "怪", "妖", "邪", "煞"],
+  "entries": [
+    {
+      "id": "TH01",
+      "name": "聻·无籍者",
+      "region": "REGION01",
+      "classification": ["鬼"],
+      "myth_motif": "鬼死为聻",
+      "path": "worldbook/true-hauntings/TH01_聻·无籍者.md",
+      "evidence_sites": ["NC01","NC02","NC03","NC04","NC05","NC06"],
+      "core_horror": "先把人带走，再让现实完成第二次死亡"
+    },
+    {
+      "id": "TH02",
+      "name": "罔两·第二影",
+      "region": "REGION02",
+      "classification": ["怪"],
+      "myth_motif": "罔两与影之影",
+      "path": "worldbook/true-hauntings/TH02_罔两·第二影.md",
+      "evidence_sites": ["BA01","BA02","BA03","BA04","BA05","BA06"],
+      "core_horror": "第二份影像逐步抢占本人的现实位置"
+    },
+    {
+      "id": "TH03",
+      "name": "魇·第零届",
+      "region": "REGION03",
+      "classification": ["邪"],
+      "myth_motif": "魇魅与厌胜",
+      "path": "worldbook/true-hauntings/TH03_魇·第零届.md",
+      "evidence_sites": ["UC01","UC02","UC03","UC04","UC05","UC06"],
+      "core_horror": "不存在的人生逐渐取代真实人生"
+    },
+    {
+      "id": "TH04",
+      "name": "白虎煞·乙班",
+      "region": "REGION04",
+      "classification": ["煞"],
+      "myth_motif": "西方白虎、金与肃杀",
+      "path": "worldbook/true-hauntings/TH04_白虎煞·乙班.md",
+      "evidence_sites": ["WI01","WI02","WI03","WI04","WI05","WI06"],
+      "core_horror": "已结束的流程继续找人补满缺口"
+    },
+    {
+      "id": "TH05",
+      "name": "无支祁·缚水者",
+      "region": "REGION05",
+      "classification": ["妖"],
+      "myth_motif": "无支祁、水猿、洪水与锁链",
+      "path": "worldbook/true-hauntings/TH05_无支祁·缚水者.md",
+      "evidence_sites": ["NW01","NW02","NW03","NW04","NW05","NW06"],
+      "core_horror": "现代水库下存在远早于城市的巨大水域实体"
+    },
+    {
+      "id": "TH06",
+      "name": "蜃·两岸之间",
+      "region": "REGION06",
+      "classification": ["怪", "妖"],
+      "classification_status": "disputed",
+      "myth_motif": "蜃气楼、蜃龙与巨蜃",
+      "path": "worldbook/true-hauntings/TH06_蜃·两岸之间.md",
+      "evidence_sites": ["RC01","RC02","RC03","RC04","RC05","RC06"],
+      "core_horror": "真正过江，却抵达了不是原来那座城市的另一岸"
+    },
+    {
+      "id": "TH07",
+      "name": "息壤·白界",
+      "region": "SUBREGION01",
+      "region_role": "municipal_rural_subregion_local_true_haunting_not_seventh_main_region",
+      "classification": ["怪", "煞"],
+      "classification_status": "disputed",
+      "myth_motif": "息壤与乡野远观白物怪谈结构",
+      "path": "worldbook/true-hauntings/TH07_息壤·白界.md",
+      "evidence_sites": ["RU01","RU02","RU03","RU04","RU05","RU06"],
+      "core_horror": "旧土地与旧关系重新登记活人，白色实体沿田界来把人带走"
+    }
+  ],
+  "separate_existing_true_haunting_appraisers": ["APP02_白月绫", "APP04_陶夭夭"],
+  "next_stage": "audit_then_refine_site_link_strength_without_rewriting_location_phenomena"
+}
